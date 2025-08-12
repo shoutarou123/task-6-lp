@@ -20,7 +20,7 @@ li {
 }
 
 /* ----- メインビジュアル ----- */
-.kv_content {
+.fv_section {
   background-image: url("../img/Group_183.png");
   height: 840px;
   background-position: center;
@@ -150,6 +150,111 @@ li {
 }
 /* ----------- */
 
+/* ----- ﾌﾘｰﾗﾝｽｻﾐｯﾄとは？ ----- */
+
+.main_container.freelance {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.freelance_section {
+  background-image: url("../img/Group\ 185.svg");
+  height: 1465px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.freelanceTitle_content {
+  margin-top: 33px;
+}
+
+.freelance_h2 {
+  font-family: 'Roboto';
+  font-size: 60px;
+  font-weight: 700;
+  font-style: italic;
+  margin-left: -5px;
+  /* color: #81D7FC; */
+}
+
+.freelance_text {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 8px;
+  margin-left: -2px;
+}
+
+.line_left,
+.line_right {
+  display: inline-block;
+  width: 29px;
+  height: 2px;
+  background-color: #444545;
+  margin: 1px 22px 0 14px;
+}
+
+.summitText_content {
+  width: 617px;
+  margin-top: 56px;
+  text-align: center;
+  }
+
+.summit_text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 45px;
+  color: brown;
+}
+
+.summitDetailText_content {
+  margin-top: 40px;
+}
+
+.summitDetail_text {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 45px;
+  color: brown;
+}
+
+.side_button {
+  border: none;
+  writing-mode: vertical-rl;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  color: #FFF;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  top: 132px;
+  padding-right: 6px;
+}
+
+.side_button_text {
+  background-color: #06c755;
+  padding: 21px 15px 0px 17px;
+  letter-spacing: 5px;
+  border-radius: 8px 0 0 8px;
+  padding-bottom: 0px;
+}
+
+.side_line_img {
+  width: 52px;
+  height: 52px;
+  margin-top: -9px;
+  margin-bottom: 12px;
+}
+
 @media screen and (max-width: 1000px) {
   .main_container {
     width: 570px;
@@ -157,7 +262,7 @@ li {
 }
 
 @media screen and (max-width: 580px) {
-  .kv_content {
+  .fv_section {
     height: 461px;
   }
 

@@ -13,7 +13,7 @@
 
 <body>
 
-  <section class="kv_content">
+  <section class="fv_section">
     <img class="logo_img" src="./img/stocksun_logo.png">
     <div class="main_container">
       <p class="sub_title">日本最大規模のフリーランスイベント</p>
@@ -31,6 +31,26 @@
       <div class="button_content">
         <a class="button_text" href="#"><span class="jizen_text">事前申し込みはこちら</span><span class="muryo_text">（無料）</span><img class="line_img" src="./img/LINE_Brand_icon 1.png"></a>
       </div>
+    </div>
+  </section>
+  <section class="freelance_section">
+    <div class="main_container freelance">
+      <div class="freelanceTitle_content">
+        <h2 class="freelance_h2">Freelance Summit</h2>
+        <p class="freelance_text"><span class="line_left"></span>フリーランスサミットとは？<span class="line_right"></span></p>
+      </div>
+      <div class="summitText_content">
+        <p class="summit_text">「FREELANCE SUMMIT」は、StockSun株式会社が主催する日本最大規模のフリーランスイベントです。</p>
+      </div>
+      <div class="summitDetailText_content">
+        <p class="summitDetail_text">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</p>
+      </div>
+
+      <a class="side_button" href="#">
+        <span class="side_button_text">申し込みはこちら
+        <img class="side_line_img" src="./img/LINE_Brand_icon 1 (1).png">
+        </span>
+      </a>
     </div>
   </section>
 
