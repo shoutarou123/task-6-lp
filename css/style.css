@@ -1,0 +1,143 @@
+html {
+  font-family: "Noto Sans JP","Roboto","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+.englich-text {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* ----- メインビジュアル ----- */
+.kv_content {
+  background-image: url("../img/Group_183.png");
+  height: 840px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.background_img {
+  width: 186.78px;
+  height: 48.6px;
+  margin-top: 14px;
+  margin-left: 40px;
+}
+
+.main_content {
+  width: 700px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 29px;
+}
+
+.sub_title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 4px;
+  color: #FFF;
+}
+
+.main_visual_img_content {
+  text-align: center;
+  margin-top: 43px;
+}
+
+.main_visual_img {
+  width: 562px;
+  height: 342.34px;
+}
+
+.date_content {
+  text-align: center;
+  margin-top: 10px;
+  padding-left: -1px;
+}
+
+.date_text,
+.timeStart_text,
+.timeEnd_text {
+  font-family: 'Roboto';
+  font-size: 45.87px;
+  font-weight: 700;
+  font-style: italic;
+  color: #FFF;
+}
+
+.dayOfWeek_text {
+  font-family: 'Roboto';
+  font-size: 33.36px;
+  font-weight: 700;
+  margin-left: 11px;
+  margin-right: 4px;
+  color: #FFF;
+}
+
+.timeStart_text {
+  letter-spacing: -0.03em;
+}
+
+.locationText_content {
+  text-align: center;
+  margin-top: 4px;
+}
+
+.kokusai_text,
+.hole_text {
+  font-size: 29.19px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.hole_text {
+  margin-left: 13px;
+}
+
+
+/* ----- ﾎﾞﾀﾝ ----- */
+.button_content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.button_text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFF;
+  padding: 12px 15px 16px 16px;
+  background-color: #06C755;
+  border: solid 2px #FFF;
+  border-radius: 33px;
+}
+
+.jizen_text {
+  position: relative;
+  left: 15px;
+}
+
+.muryo_text {
+  position: relative;
+  left:5px;
+}
+
+.line_img {
+  width: 57px;
+  height: 57px;
+  vertical-align: middle;
+  position: relative;
+  right: 5px;
+}
+/* ----------- */
