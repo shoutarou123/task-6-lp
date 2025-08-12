@@ -1,9 +1,9 @@
 html {
-  font-family: "Noto Sans JP","Roboto","Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-family: "Noto Sans JP", "Roboto", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 .englich-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 * {
@@ -28,27 +28,26 @@ li {
   background-size: cover;
 }
 
-.background_img {
+.logo_img {
   width: 186.78px;
   height: 48.6px;
   margin-top: 14px;
   margin-left: 40px;
 }
 
-.main_content {
-  width: 700px;
-  height: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 29px;
+.main_container {
+  /* background-color: rgb(238, 233, 228); */
+  width: 960px;
+  margin: 0 auto;
 }
 
 .sub_title {
+  margin-top: 29px;
   text-align: center;
   font-size: 28px;
   font-weight: bold;
   margin-right: 4px;
-  color: #FFF;
+  color: #fff;
 }
 
 .main_visual_img_content {
@@ -58,7 +57,17 @@ li {
 
 .main_visual_img {
   width: 562px;
-  height: 342.34px;
+  height: 256.24px;
+}
+
+.sub_visual_img {
+  width: 517px;
+  height: 56.34px;
+  margin-top: 25px;
+}
+
+.sub_visual_img_sp.hidden {
+  display: none;
 }
 
 .date_content {
@@ -70,20 +79,20 @@ li {
 .date_text,
 .timeStart_text,
 .timeEnd_text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 45.87px;
   font-weight: 700;
   font-style: italic;
-  color: #FFF;
+  color: #fff;
 }
 
 .dayOfWeek_text {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 33.36px;
   font-weight: 700;
   margin-left: 11px;
   margin-right: 4px;
-  color: #FFF;
+  color: #fff;
 }
 
 .timeStart_text {
@@ -99,13 +108,12 @@ li {
 .hole_text {
   font-size: 29.19px;
   font-weight: bold;
-  color: #FFF;
+  color: #fff;
 }
 
 .hole_text {
   margin-left: 13px;
 }
-
 
 /* ----- ﾎﾞﾀﾝ ----- */
 .button_content {
@@ -116,10 +124,10 @@ li {
 .button_text {
   font-size: 24px;
   font-weight: 700;
-  color: #FFF;
+  color: #fff;
   padding: 12px 15px 16px 16px;
-  background-color: #06C755;
-  border: solid 2px #FFF;
+  background-color: #06c755;
+  border: solid 2px #fff;
   border-radius: 33px;
 }
 
@@ -130,7 +138,7 @@ li {
 
 .muryo_text {
   position: relative;
-  left:5px;
+  left: 5px;
 }
 
 .line_img {
@@ -141,3 +149,104 @@ li {
   right: 5px;
 }
 /* ----------- */
+
+@media screen and (max-width: 1000px) {
+  .main_container {
+    width: 570px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .kv_content {
+    height: 461px;
+  }
+
+  .logo_img {
+    width: 76.6px;
+    height: 19.93px;
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+
+  .main_container {
+    width: 330px;
+  }
+
+  .sub_title {
+    margin-top: 34px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 1px;
+  }
+
+  .main_visual_img_content {
+    text-align: center;
+    margin-top: 23px;
+  }
+
+  .main_visual_img {
+    width: 302px;
+    height: 145.61px;
+  }
+
+  .sub_visual_img {
+    display: none;
+  }
+
+  .sub_visual_img_sp.hidden {
+    display: inline-block;
+    width: 257px;
+    height: 24.15px;
+    margin-top: 11px;
+  }
+
+  .date_content {
+    margin-top: 14px;
+    padding-left: 0px;
+  }
+
+  .date_text,
+  .timeStart_text,
+  .timeEnd_text {
+    font-size: 24.95px;
+  }
+
+  .date_text {
+    position: relative;
+    left: 2px;
+  }
+
+  .dayOfWeek_text {
+    font-size: 18.15px;
+    position: relative;
+    right: 2px;
+  }
+
+  .timeStart_text {
+    position: relative;
+    right: 3px;
+  }
+
+  .timeEnd_text {
+    position: relative;
+    right: 3px;
+  }
+
+  .locationText_content {
+    margin-top: 2px;
+  }
+
+  .kokusai_text,
+  .hole_text {
+    font-size: 15.88px;
+  }
+
+  .kokusai_text {
+    margin-right: -6px;
+  }
+
+  .button_content {
+    display: none;
+  }
+}

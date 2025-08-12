@@ -13,13 +13,14 @@
 
 <body>
 
-
-  <div class="kv_content">
-    <img class="background_img" src="./img/stocksun_logo.png">
-    <div class="main_content">
+  <section class="kv_content">
+    <img class="logo_img" src="./img/stocksun_logo.png">
+    <div class="main_container">
       <p class="sub_title">日本最大規模のフリーランスイベント</p>
       <div class="main_visual_img_content">
-        <img class="main_visual_img" src="./img/kv.svg">
+        <img class="main_visual_img" src="./img/freelancesummit.png">
+        <img class="sub_visual_img" src="./img/sponsoreddym.png">
+        <img class="sub_visual_img_sp hidden" src="./img/sp/sub_title.png">
       </div>
       <div class="date_content">
         <span class="date_text">3/4</span><span class="dayOfWeek_text">Sat</span><span class="timeStart_text">10:00-</span><span class="timeEnd_text">18:00</span>
@@ -31,8 +32,7 @@
         <a class="button_text" href="#"><span class="jizen_text">事前申し込みはこちら</span><span class="muryo_text">（無料）</span><img class="line_img" src="./img/LINE_Brand_icon 1.png"></a>
       </div>
     </div>
-  </div>
-
+  </section>
 
 </body>
 
