@@ -28,6 +28,10 @@ li {
   background-size: cover;
 }
 
+.fv_sp_section.hidden {
+  display: none;
+}
+
 .logo_img {
   width: 186.78px;
   height: 48.6px;
@@ -152,10 +156,13 @@ li {
 
 /* ----- ﾌﾘｰﾗﾝｽｻﾐｯﾄとは？ ----- */
 
-.main_container.freelance {
+.main_container_freelance {
+  width: 990px;
+  margin: 0 auto;
   display: flex;
   flex-flow: column;
   align-items: center;
+  /* background-color: chocolate; */
 }
 
 .freelance_section {
@@ -167,12 +174,12 @@ li {
   position: relative;
 }
 
-.freelanceTitle_content {
+.title_content {
   margin-top: 33px;
 }
 
-.freelance_h2 {
-  font-family: 'Roboto';
+.title_h2 {
+  font-family: "Roboto";
   font-size: 60px;
   font-weight: 700;
   font-style: italic;
@@ -180,7 +187,7 @@ li {
   /* color: #81D7FC; */
 }
 
-.freelance_text {
+.subTitle_text {
   font-size: 18px;
   font-weight: 700;
   display: flex;
@@ -204,7 +211,7 @@ li {
   width: 617px;
   margin-top: 56px;
   text-align: center;
-  }
+}
 
 .summit_text {
   font-size: 22px;
@@ -214,7 +221,9 @@ li {
 }
 
 .summitDetailText_content {
+  width: 960px;
   margin-top: 40px;
+
 }
 
 .summitDetail_text {
@@ -230,7 +239,7 @@ li {
   font-size: 22px;
   font-weight: bold;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -255,9 +264,236 @@ li {
   margin-bottom: 12px;
 }
 
-@media screen and (max-width: 1000px) {
+/* ----- Summaryセクション ----- */
+.title_content.summary {
+  text-align: center;
+  margin-top: 160px;
+}
+
+
+.subTitle_text.event {
+  margin: 0;
+  margin-top: 7px;
+}
+
+.line_left.event {
+  margin: 0;
+  margin-right: 29px;
+  margin-left: 26px;
+}
+
+.line_right.event {
+  margin: 0;
+  margin-left: 34px;
+  margin-right: 35px;
+}
+
+.summaryDetail_content {
+  display: flex;
+  align-items: center;
+  margin-top: 57px;
+}
+
+.summaryDetail_title {
+  font-size: 22px;
+  font-weight: bold;
+  color: red;
+  border: solid 2px red;
+  /* color: #FDD35C; */
+  /* border: solid 2px #FDD35C; */
+  text-align: center;
+  width: 170px;
+  height: 50px;
+  line-height: 48px;
+  border-radius: 40px;
+  position: relative;
+  right: -8px;
+}
+
+.summaryDetail_detail {
+  font-size: 22px;
+  font-weight: bold;
+  color: blue;
+}
+
+.start_text {
+  position: relative;
+  right: -26px;
+}
+
+.kaijou_text {
+  position: relative;
+  right: -27px;
+}
+
+.end_text {
+  position: relative;
+  right: -33px;
+}
+
+.border_dot {
+  display: block;
+  width: 980px;
+  height: 1px;
+  border-bottom: dotted 1px red;
+  margin-top: 34px;
+}
+
+.summaryDetail_content.kaijou {
+  margin-top: 35px;
+}
+
+.forum_text {
+  position: relative;
+  right: -26px;
+}
+
+.holee2_text {
+  position: relative;
+  right: -37px;
+}
+
+.summaryDetail_content.event {
+  margin-top: 30px;
+}
+
+.busu_content {
+  margin-left: 27px;
+  position: relative;
+  top: 15px
+}
+
+.border_dot.busu {
+  margin-top: 56px;
+}
+
+.summaryDetail_content.taishou {
+  margin-top: 35px;
+}
+
+.summaryDetail_title.taishou {
+  margin-right: 27px;
+}
+
+.syasen {
+  margin-left: 10px;
+  position: relative;
+  right: 5px;
+}
+
+.summaryDetail_content.access {
+  align-items: start;
+  margin-top: 36px;
+}
+
+.moyori_content {
+  margin-left: 26px;
+}
+
+.moyori_text {
+  font-size: 22px;
+  font-weight: bold;
+  position: relative;
+  top: 3px;
+  margin-bottom: 9px;
+}
+
+.dot {
+  display:inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.mini_text {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mini_text.title {
+  margin-left: 4px;
+}
+
+.mini_text.eki {
+  margin-left: 15px;
+}
+
+.mini_text.title.tika {
+  margin-top: 7px;
+}
+
+.eki_text {
+  position: relative;
+  left: 5px;
+}
+
+iframe {
+  margin-left: 17px;
+  width: 380px;
+  height: 235px;
+}
+
+
+
+
+
+@media screen and (max-width: 1430px) {
+  .summitDetailText_content {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 1110px) {
   .main_container {
     width: 570px;
+  }
+
+  .main_container_freelance {
+    width: 620px;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .main_container {
+    width: 500px;
+  }
+
+  .main_visual_img {
+    width: 440px;
+    height: 173.61px;
+  }
+
+  .sub_visual_img {
+    width: 470px;
+    height: 50.34px;
+  }
+
+  .summitText_content {
+    display: none;
+  }
+
+  .side_button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main_container_freelance {
+    width: 370px;
+  }
+
+  .title_h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .subTitle_text {
+    font-size: 14px;
+  }
+
+  .summitDetail_text {
+    font-size: 16px;
   }
 }
 
@@ -274,7 +510,7 @@ li {
   }
 
   .main_container {
-    width: 330px;
+    width: 300px;
   }
 
   .sub_title {
@@ -353,5 +589,51 @@ li {
 
   .button_content {
     display: none;
+  }
+  /* --Freelance セクション */
+  /* .freelance_section {
+    background-image: url("../img/sp/Group_186.svg");
+  } */
+}
+
+@media screen and (max-width: 390px) {
+  .fv_section {
+    background-image: url("../img/sp/Group\ 184.png");
+  }
+
+  .freelance_section {
+    background-image: url("../img/sp/Group_186.svg");
+    background-size: auto;
+    height: 365px;
+  }
+
+  .main_container_freelance {
+    width: 300px;
+  }
+
+  .title_content {
+    margin-top: 28px;
+  }
+
+  .subTitle_text {
+    margin-top: 5px;
+    margin-left: 1px;
+  }
+
+  .line_left,
+  .line_right {
+    display: inline-block;
+    width: 20px;
+    height: 2px;
+    background-color: #444545;
+    margin: -3px 13px 0 12px;
+  }
+
+  .summitDetailText_content {
+    margin-top: 23px;
+  }
+
+  .summitDetail_text {
+    line-height: 37px;
   }
 }
