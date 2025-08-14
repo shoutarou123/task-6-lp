@@ -93,7 +93,7 @@
           <p class="summaryDetail_title taishou">対象者</p>
           <p class="summaryDetail_detail keiei">
             <span class="keiei_text">経営者<span class="syasen">/</span>フリーランス<span class="syasen">/</span>独立志望の会社員</span>
-            <span class="keieisya hidden">経営者/フリーランス/</span>
+            <span class="keieisya hidden">経営者<span class="syasen_left_sp">/</span><span class="freelance_sp">フリーランス</span><span class="syasen_right_sp">/</span></span>
             <span class="siritu hidden">独立志望の会社員</span>
           </p>
         </div>
@@ -106,15 +106,15 @@
           </div>
           <div class="moyori_content">
             <p class="moyori_text">【最寄駅】</p>
-            <p class="mini_text title"><span class="dot"></span>JR</p>
+            <p class="mini_text title"><span class="dot jr"></span>JR</p>
             <p class="mini_text eki">有楽町駅より徒歩1分</p>
             <p class="mini_text eki">東京駅より徒歩5分</p>
-            <p class="mini_text title tika"><span class="dot"></span>地下鉄</p>
-            <p class="mini_text eki">有楽町線<span class="eki_text">：有楽町駅(B1F地下コンコースにて連絡)</span></p>
-            <p class="mini_text eki">千代田線<span class="eki_text">：二重橋前駅より徒歩5分/日比谷駅より徒歩7分</span></p>
-            <p class="mini_text eki">丸ノ内線<span class="eki_text">：銀座駅より徒歩5分</span></p>
-            <p class="mini_text eki">銀座線<span class="eki_text">：銀座駅より徒歩7分/京橋駅より徒歩7分</span></p>
-            <p class="mini_text eki">三田線<span class="eki_text">：日比谷駅より徒歩5分</span></p>
+            <p class="mini_text title tika"><span class="dot tika"></span>地下鉄</p>
+            <p class="mini_text eki">有楽町線<span class="eki_text"><span class="koron">：</span>有楽町駅(B1F地下コンコースにて連絡)</span></p>
+            <p class="mini_text eki">千代田線<span class="eki_text"><span class="koron">：</span>二重橋前駅より徒歩5分/日比谷駅より徒歩7分</span></p>
+            <p class="mini_text eki">丸ノ内線<span class="eki_text"><span class="koron">：</span>銀座駅より徒歩5分</span></p>
+            <p class="mini_text eki">銀座線<span class="eki_text"><span class="koron">：</span>銀座駅より徒歩7分/京橋駅より徒歩7分</span></p>
+            <p class="mini_text eki">三田線<span class="eki_text"><span class="koron">：</span>日比谷駅より徒歩5分</span></p>
 
           </div>
           <div class="map_content">
