@@ -63,7 +63,7 @@
           <p class="summaryDetail_detail">
             <span class="start_text">2023年3月4日（土）</span><span class="kaijou_text">開場10:00</span><span class="end_text">閉場18:00（受付開始9:30-）</span><span class="jikan hidden">10:00～18:00</span><span class="uketuke hidden">(受付開始9:30-)</span>
           </p>
-          
+
         </div>
 
         <span class="border_dot"></span>
@@ -124,12 +124,52 @@
         <div class="iframe_content hidden">
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.030113582723!2d139.76172800985458!3d35.67626050004339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfabc68fde1%3A0xc4ca6a002ded263d!2z5p2x5Lqs5Zu96Zqb44OV44Kp44O844Op44Og!5e0!3m2!1sja!2sjp!4v1755060763615!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
-
       </div>
     </div>
   </section>
 
+  <section class="contents_section">
+    
+      <div class="title_content contens">
+        <h2 class="title_h2 contents">Contents</h2>
+        <p class="subTitle_text contens"><span class="line_left contens"></span><span class="event_text contens">イベント内容</span><span class="line_right contents"></span></p>
+      </div>
+    </div>
+
+    <div class="flex">
+      <div class="square">
+        <div class="heading_text_content">
+          <p class="heading_text">フリーランスに特化した企業エリア</p>
+        </div>
+        <p class="fukidashi_text">出会いたい企業にきっと出会える</p>
+        <img class="fukidashi_img" src="./img/Vector 15.svg">
+        <p class="explanation_content">
+          <span class="number_text">60</span><span class="explanation_text">ブースの企業エリア</span>
+        </p>
+        <img class="explanation_img" src="./img/AdobeStock_239185211 1.png">
+      </div>
+      <div class="square">
+        <div class="heading_text_content">
+        <p class="heading_text">各業界の著名人が登壇</p>
+        </div>
+        <p class="fukidashi_text">ここでしか聞けない話が聞ける</p>
+        <img class="fukidashi_img" src="./img/Vector 15.svg">
+        <p class="explanation_content gouka">
+          <span class="explanation_text">豪華セミナーを開催</span>
+        </p>
+        <img class="explanation_img gouka" src="./img/img3 1.png">
+      </div>
+    </div>
+    <div class="button_content contents">
+      <a class="button_text" href="#"><span class="jizen_text">事前申し込みはこちら</span><span class="muryo_text">（無料）</span><img class="line_img" src="./img/LINE_Brand_icon 1.png"></a>
+    </div>
+    
+
+  </section>
+
+  <section>
+    
+  </section>
 </body>
 
 </html>

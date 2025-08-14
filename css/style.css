@@ -168,6 +168,8 @@ li {
   aspect-ratio: 1440 / 1502;
   width: 100%;
   position: relative;
+  margin-bottom: 8.75vw;
+  background-color: violet;
 }
 
 .main_container_freelance {
@@ -470,6 +472,114 @@ iframe {
   display: none;
 }
 
+/* ----- コンテンツセクション ----- */
+.contents_section {
+  width: 100vw;
+  height: 56.53vw;
+  /* background-color: #FFF6DE; */
+  background-color: aquamarine;
+}
+
+.title_content.contens {
+  /* background-color: #06c755; */
+  text-align: center;
+  position: relative;
+  top: 5.07vw;
+}
+.title_h2.contens {
+  text-align: center;
+}
+
+.event_text.contens {
+  position: relative;
+  top: 0.07vw;
+  left: -0.28vw;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 6.04vw;
+  margin-top: 9.03vw;
+}
+
+.square {
+  /* border: solid 3px #FDD35C; */
+  border: solid 3px red;
+  width: 30vw;
+  height: 25.69vw;
+  border-radius: 0.69vw;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.heading_text_content {
+  width: 30vw;
+  height: 3.82vw;
+  /* background-color: #FDD35C; */
+  background-color: red;
+  border-radius: 0.28vw 0.28vw 0 0;
+}
+
+.heading_text {
+  font-size: 1.67vw;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 0.69vw;
+}
+
+.fukidashi_text {
+  font-size: 0.97vw;
+  font-weight: 500;
+  margin-right: 0.83vw;
+  margin-top: 0.97vw;
+}
+
+.fukidashi_img {
+  width: 16.18vw;
+  height: 2.43vw;
+  margin-right: 0.56vw;
+  margin-top: -0.28vw;
+}
+
+.number_text {
+  font-family: "Roboto";
+  font-size: 3.33vw;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.explanation_content {
+  margin-top: -1.04vw;
+  margin-left: 0.21vw;
+}
+
+.explanation_text {
+  font-size: 1.94vw;
+  font-weight: bold;
+}
+
+.explanation_img {
+  width: 23.61vw;
+  height: 12.5vw;
+  margin-top: 0.63vw;
+}
+
+.explanation_content.gouka {
+  margin-top: 0px;
+}
+
+.explanation_img.gouka {
+  margin-top: 0.83vw;
+  margin-left: 0.42vw;
+}
+
+.button_content.contents {
+  margin-top: 4.58vw;
+}
+
+/* *********** レスポンシブ *************** */
 @media screen and (max-width: 1390px) {
   .logo_img {
     width: 13.437vw;
@@ -532,6 +642,16 @@ iframe {
     height: auto;
     position: relative;
     right: 0.36vw;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .explanation_content.gouka {
+    margin-top: -0.57vw;
+  }
+
+  .explanation_img.gouka {
+    margin-top: 0.57vw;
   }
 }
 
@@ -612,6 +732,7 @@ iframe {
     background-image: url("../img/sp/Group_186.svg");
     height: 103.45vw;
     aspect-ratio: 390 / 418;
+    margin-bottom: 800px;
   }
 
   .title_content {
@@ -770,6 +891,87 @@ iframe {
     width: 59.48vw;
     height: 34.48vw;
   }
+
+  /* ---- コンテンツセクション ----- */
+  .contents_section {
+    width: 100vw;
+    height: 199.49vw;
+  }
+
+  .title_h2.contens {
+    /* font-size: 6.67vw; */
+    /* font-size: 4.48vw; */
+  }
+
+  .line_left.contens {
+    width: 5.13vw;
+    margin-right: 7.69vw;
+  }
+
+  .line_right.contents {
+    width: 5.13vw;
+    margin-left: 7.69vw;
+  }
+
+  .event_text.contens {
+    font-size: 3.59vw;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .square {
+    width: 86.15vw;
+    height: 74.67vw;
+    border-radius: 0.69vw;
+  }
+
+  .heading_text_content {
+    width: 86.15vw;
+    height: 11.29vw;
+  }
+
+  .heading_text {
+    font-size: 4.75vw;
+    margin-top: 2.31vw;
+  }
+
+  .fukidashi_text {
+    font-size: 2.77vw;
+  }
+
+  .fukidashi_img {
+    width: 45.75vw;
+    height: 6.54vw;
+  }
+
+  .number_text {
+    font-size: 9.51vw;
+    font-weight: 600;
+  }
+
+  .explanation_text {
+    font-size: 5.55vw;
+  }
+
+  .explanation_img {
+    width: 67.34vw;
+    height: 35.65vw;
+  }
+}
+
+@media screen and (max-width: 508px) {
+  .freelance_section {
+    margin-bottom: 900px;
+  }
+}
+
+@media screen and (max-width: 437px) {
+  .freelance_section {
+    margin-bottom: 900px;
+  }
 }
 
 @media screen and (max-width: 390px) {
@@ -865,6 +1067,7 @@ iframe {
 
   .freelance_section {
     background-position: 0 -6.92vw;
+    margin-bottom: 920px;
   }
 
   .main_container_freelance {
@@ -1088,4 +1291,9 @@ iframe {
     width: 88.46vw;
     height: 51.28vw;
   }
+
+  /* ******** コンテンツセクション ******* */
+.title_content.contens {
+  margin-top: 30px;
+}
 }
