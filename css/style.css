@@ -20,12 +20,14 @@ li {
 }
 
 /* ----- メインビジュアル ----- */
+
 .fv_section {
   background-image: url("../img/Group_183.png");
-  height: 840px;
-  background-position: center;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
+  aspect-ratio: 2880 / 1684;
+  width: 100%;
 }
 
 .fv_sp_section.hidden {
@@ -40,15 +42,16 @@ li {
 }
 
 .main_container {
-  /* background-color: rgb(238, 233, 228); */
-  width: 960px;
+  background-color: rgb(238, 233, 228);
+  width: 66.6vw;
+  height: auto;
   margin: 0 auto;
 }
 
 .sub_title {
   margin-top: 29px;
   text-align: center;
-  font-size: 28px;
+  font-size: 1.94vw;
   font-weight: bold;
   margin-right: 4px;
   color: #fff;
@@ -84,7 +87,7 @@ li {
 .timeStart_text,
 .timeEnd_text {
   font-family: "Roboto";
-  font-size: 45.87px;
+  font-size: 3.185vw;
   font-weight: 700;
   font-style: italic;
   color: #fff;
@@ -92,7 +95,7 @@ li {
 
 .dayOfWeek_text {
   font-family: "Roboto";
-  font-size: 33.36px;
+  font-size: 2.316vw;
   font-weight: 700;
   margin-left: 11px;
   margin-right: 4px;
@@ -110,7 +113,7 @@ li {
 
 .kokusai_text,
 .hole_text {
-  font-size: 29.19px;
+  font-size: 2.027vw;
   font-weight: bold;
   color: #fff;
 }
@@ -126,7 +129,7 @@ li {
 }
 
 .button_text {
-  font-size: 24px;
+  font-size: 1.66vw;
   font-weight: 700;
   color: #fff;
   padding: 12px 15px 16px 16px;
@@ -156,87 +159,88 @@ li {
 
 /* ----- ﾌﾘｰﾗﾝｽｻﾐｯﾄとは？ ----- */
 
+.freelance_section {
+  background-image: url("../img/Group\ 185.svg");
+  height: 104.375vw;
+  background-position: 0px -1.388vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1440 / 1502;
+  width: 100%;
+  position: relative;
+}
+
 .main_container_freelance {
-  width: 990px;
+  width: 68.75vw;
   margin: 0 auto;
   display: flex;
   flex-flow: column;
   align-items: center;
-  /* background-color: chocolate; */
-}
-
-.freelance_section {
-  background-image: url("../img/Group\ 185.svg");
-  height: 1465px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-color: chocolate;
 }
 
 .title_content {
-  margin-top: 33px;
+  margin-top: 2.2916vw;
 }
 
 .title_h2 {
   font-family: "Roboto";
-  font-size: 60px;
+  font-size: 4.166vw;
   font-weight: 700;
   font-style: italic;
-  margin-left: -5px;
+  margin-left: -0.3472vw;
   /* color: #81D7FC; */
 }
 
 .subTitle_text {
-  font-size: 18px;
+  font-size: 1.25vw;
   font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 8px;
-  margin-left: -2px;
+  margin-top: 0.416vw;
+  margin-left: -0.138vw;
 }
 
 .line_left,
 .line_right {
   display: inline-block;
-  width: 29px;
-  height: 2px;
+  width: 2.0138vw;
+  height: 0.138vw;
   background-color: #444545;
-  margin: 1px 22px 0 14px;
+  margin: 0.0694vw 1.527vw 0 0.972vw;
 }
 
 .summitText_content {
-  width: 617px;
-  margin-top: 56px;
+  width: 42.8472vw;
+  margin-top: 3.88vw;
   text-align: center;
 }
 
 .summit_text {
-  font-size: 22px;
+  font-size: 1.527vw;
   font-weight: 700;
-  line-height: 45px;
+  line-height: 3.125vw;
   color: brown;
 }
 
 .summitDetailText_content {
-  width: 960px;
-  margin-top: 40px;
-
+  width: 66.66vw;
+  margin-top: 2.77vw;
 }
 
 .summitDetail_text {
-  font-size: 18px;
+  font-size: 1.25vw;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 3.125vw;
   color: brown;
 }
 
 .side_button {
   border: none;
   writing-mode: vertical-rl;
-  font-size: 22px;
+  font-size: 1.5277vw;
   font-weight: bold;
   text-align: center;
   color: #fff;
@@ -245,291 +249,322 @@ li {
   justify-content: center;
   position: absolute;
   right: 0px;
-  top: 132px;
-  padding-right: 6px;
+  top: 9.027vw;
+  padding-right: 0.416vw;
 }
 
 .side_button_text {
   background-color: #06c755;
-  padding: 21px 15px 0px 17px;
-  letter-spacing: 5px;
+  padding: 1.4583vw 1.0416vw 0 1.1805vw;
+  letter-spacing: 0.347vw;
   border-radius: 8px 0 0 8px;
   padding-bottom: 0px;
 }
 
 .side_line_img {
-  width: 52px;
-  height: 52px;
-  margin-top: -9px;
-  margin-bottom: 12px;
+  width: 3.61vw;
+  height: 3.61vw;
+  margin-top: -0.625vw;
+  margin-bottom: 0.833vw;
 }
 
 /* ----- Summaryセクション ----- */
 .title_content.summary {
   text-align: center;
-  margin-top: 160px;
+  margin-top: 11.0416vw;
 }
-
 
 .subTitle_text.event {
   margin: 0;
-  margin-top: 7px;
+  margin-top: 0.4861vw;
 }
 
 .line_left.event {
   margin: 0;
-  margin-right: 29px;
-  margin-left: 26px;
+  margin-right: 2.0138vw;
+  margin-left: 1.805vw;
 }
 
 .line_right.event {
   margin: 0;
-  margin-left: 34px;
-  margin-right: 35px;
+  margin-left: 2.361vw;
+  margin-right: 2.4305vw;
 }
 
 .summaryDetail_content {
   display: flex;
   align-items: center;
-  margin-top: 57px;
+  margin-top: 3.9583vw;
 }
 
 .summaryDetail_title {
-  font-size: 22px;
+  font-size: 1.527vw;
   font-weight: bold;
   color: red;
   border: solid 2px red;
   /* color: #FDD35C; */
   /* border: solid 2px #FDD35C; */
   text-align: center;
-  width: 170px;
-  height: 50px;
-  line-height: 48px;
+  width: 11.8055vw;
+  height: 3.472vw;
+  line-height: 3.33vw;
   border-radius: 40px;
   position: relative;
-  right: -8px;
+  right: -0.55vw;
 }
 
 .summaryDetail_detail {
-  font-size: 22px;
+  font-size: 1.527vw;
   font-weight: bold;
   color: blue;
+  margin-top: 0.138vw;
 }
 
 .start_text {
   position: relative;
-  right: -26px;
+  right: -1.8055vw;
 }
 
 .kaijou_text {
   position: relative;
-  right: -27px;
+  right: -1.875vw;
 }
 
 .end_text {
   position: relative;
-  right: -33px;
+  right: -2.2916vw;
+}
+
+.jikan.hidden {
+  display: none;
+}
+
+.uketuke.hidden {
+  display: none;
 }
 
 .border_dot {
   display: block;
-  width: 980px;
-  height: 1px;
-  border-bottom: dotted 1px red;
-  margin-top: 34px;
+  width: 68.05vw;
+  height: 0.0694vw;
+  border-bottom: dotted 0.0694vw red;
+  margin-top: 2.361vw;
 }
 
 .summaryDetail_content.kaijou {
-  margin-top: 35px;
+  margin-top: 2.4305vw;
 }
 
 .forum_text {
   position: relative;
-  right: -26px;
+  right: -1.805vw;
 }
 
 .holee2_text {
   position: relative;
-  right: -37px;
+  right: -2.5694vw;
+}
+
+.summaryDetail_detail_sp.hidden {
+  display: none;
 }
 
 .summaryDetail_content.event {
-  margin-top: 30px;
+  margin-top: 2.083vw;
 }
 
 .busu_content {
-  margin-left: 27px;
+  margin-left: 1.875vw;
   position: relative;
-  top: 15px
+  top: 1.0416vw;
+}
+
+.bisines_text.hidden {
+  display: none;
 }
 
 .border_dot.busu {
-  margin-top: 56px;
+  margin-top: 3.88vw;
 }
 
 .summaryDetail_content.taishou {
-  margin-top: 35px;
+  margin-top: 2.4305vw;
 }
 
 .summaryDetail_title.taishou {
-  margin-right: 27px;
+  margin-right: 1.875vw;
+}
+
+.summaryDetail_detail.keiei {
+  margin-top: -0.138vw;
+}
+
+.keieisya.hidden,
+.siritu.hidden {
+  display: none;
 }
 
 .syasen {
-  margin-left: 10px;
+  margin-left: 0.694vw;
   position: relative;
-  right: 5px;
+  right: 0.347vw;
 }
 
 .summaryDetail_content.access {
   align-items: start;
-  margin-top: 36px;
+  margin-top: 2.5vw;
+}
+
+.summaryDetail_title.access {
+  margin-top: -0.138vw;
 }
 
 .moyori_content {
-  margin-left: 26px;
+  margin-left: 1.805vw;
 }
 
 .moyori_text {
-  font-size: 22px;
+  font-size: 1.527vw;
   font-weight: bold;
   position: relative;
-  top: 3px;
-  margin-bottom: 9px;
+  top: 0.2083vw;
+  margin-bottom: 0.625vw;
 }
 
 .dot {
-  display:inline-block;
-  width: 10px;
-  height: 10px;
+  display: inline-block;
+  width: 0.694vw;
+  height: 0.694vw;
   background-color: red;
   border-radius: 50%;
 }
 
 .mini_text {
-  font-size: 14px;
+  font-size: 0.972vw;
   font-weight: 500;
 }
 .mini_text.title {
-  margin-left: 4px;
+  margin-left: 0.277vw;
 }
 
 .mini_text.eki {
-  margin-left: 15px;
+  margin-left: 1.0416vw;
 }
 
 .mini_text.title.tika {
-  margin-top: 7px;
+  margin-top: 0.4861vw;
 }
 
 .eki_text {
   position: relative;
-  left: 5px;
+  left: 0.3472vw;
 }
 
 iframe {
-  margin-left: 17px;
-  width: 380px;
-  height: 235px;
+  margin-left: 1.1805vw;
+  width: 26.38vw;
+  height: 16.3194vw;
 }
 
-
-
-
-
-@media screen and (max-width: 1430px) {
-  .summitDetailText_content {
-    width: 100%;
-  }
+.iframe_content.hidden {
+  display: none;
 }
 
-
-@media screen and (max-width: 1110px) {
-  .main_container {
-    width: 570px;
+@media screen and (max-width: 1390px) {
+  .logo_img {
+    width: 13.437vw;
+    height: 3.375vw;
+    margin-top: 1.007vw;
+    margin-left: 2.777vw;
   }
 
-  .main_container_freelance {
-    width: 620px;
+  .sub_title {
+    margin-top: 2.086vw;
+    margin-right: 0.277vw;
   }
-}
 
-@media screen and (max-width: 755px) {
-  .main_container {
-    width: 500px;
+  .main_visual_img_content {
+    margin-top: 3.09vw;
   }
 
   .main_visual_img {
-    width: 440px;
-    height: 173.61px;
+    width: 40%;
+    height: auto;
+    display: block;
+    margin: auto;
   }
 
   .sub_visual_img {
-    width: 470px;
-    height: 50.34px;
+    width: 37%;
+    height: auto;
+    display: block;
+    margin: 25px auto 0px auto;
   }
 
-  .summitText_content {
-    display: none;
+  .date_content {
+    margin-top: 0.719vw;
   }
 
-  .side_button {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .main_container_freelance {
-    width: 370px;
+  .locationText_content {
+    margin-top: 0.2877vw;
   }
 
-  .title_h2 {
-    font-size: 26px;
-    text-align: center;
+  .button_content {
+    margin-top: 3.472vw;
   }
 
-  .subTitle_text {
-    font-size: 14px;
+  .button_text {
+    padding: 0.86vw 1.079vw 1.151vw 1.151vw;
   }
 
-  .summitDetail_text {
-    font-size: 16px;
+  .jizen_text {
+    position: relative;
+    left: 1.079vw;
+  }
+
+  .muryo_text {
+    position: relative;
+    left: 0.36vw;
+  }
+
+  .line_img {
+    width: 4%;
+    height: auto;
+    position: relative;
+    right: 0.36vw;
   }
 }
 
 @media screen and (max-width: 580px) {
-  .fv_section {
-    height: 461px;
-  }
+ .fv_section {
+  background-image: url("../img/sp/Group\ 184.png");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 780 / 924;
+  width: 100%;
+}
 
-  .logo_img {
-    width: 76.6px;
-    height: 19.93px;
-    margin-top: 12px;
-    margin-left: 12px;
-  }
+.logo_img {
+  width: 76.8px;
+  height: 19.93px;
+}
 
-  .main_container {
-    width: 300px;
-  }
+.main_container {
+  height: 350px;
+  margin-top: 70px;
+}
 
-  .sub_title {
-    margin-top: 34px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: bold;
-    margin-right: 1px;
-  }
+.sub_title {
+  font-size: 16px;
+  margin-bottom: 28px;
+}
 
-  .main_visual_img_content {
-    text-align: center;
-    margin-top: 23px;
-  }
-
-  .main_visual_img {
-    width: 302px;
-    height: 145.61px;
-  }
+.main_visual_img {
+  width: 302px;
+  height: 145.61px;
+  margin-bottom: 16px;
+}
 
   .sub_visual_img {
     display: none;
@@ -539,101 +574,203 @@ iframe {
     display: inline-block;
     width: 257px;
     height: 24.15px;
-    margin-top: 11px;
+    margin-top: 1.72vw;
   }
 
-  .date_content {
-    margin-top: 14px;
-    padding-left: 0px;
-  }
+.date_content {
+  margin-bottom: 14px;
+}
 
-  .date_text,
-  .timeStart_text,
-  .timeEnd_text {
-    font-size: 24.95px;
-  }
+.date_text,
+.timeStart_text,
+.timeEnd_text {
+  font-size: 24.95px;
+}
 
-  .date_text {
-    position: relative;
-    left: 2px;
-  }
+.dayOfWeek_text {
+  font-size: 18.15px;
+}
 
-  .dayOfWeek_text {
-    font-size: 18.15px;
-    position: relative;
-    right: 2px;
-  }
+.locationText_content {
+  margin-bottom: 83px;
+  background-color: #06c755;
+}
 
-  .timeStart_text {
-    position: relative;
-    right: 3px;
-  }
-
-  .timeEnd_text {
-    position: relative;
-    right: 3px;
-  }
-
-  .locationText_content {
-    margin-top: 2px;
-  }
-
-  .kokusai_text,
-  .hole_text {
-    font-size: 15.88px;
-  }
-
-  .kokusai_text {
-    margin-right: -6px;
-  }
+.kokusai_text,
+.hole_text {
+  font-size: 15.88px;
+}
 
   .button_content {
     display: none;
   }
+
   /* --Freelance セクション */
-  /* .freelance_section {
-    background-image: url("../img/sp/Group_186.svg");
-  } */
-}
-
-@media screen and (max-width: 390px) {
-  .fv_section {
-    background-image: url("../img/sp/Group\ 184.png");
-  }
-
   .freelance_section {
     background-image: url("../img/sp/Group_186.svg");
-    background-size: auto;
-    height: 365px;
-  }
-
-  .main_container_freelance {
-    width: 300px;
+    height: 103.45vw;
+    aspect-ratio: 390 / 418;
+    background-color: #444545;
   }
 
   .title_content {
-    margin-top: 28px;
+    margin-top: 5.17vw;
+  }
+
+  .title_h2 {
+    font-size: 26px;
   }
 
   .subTitle_text {
-    margin-top: 5px;
-    margin-left: 1px;
-  }
-
-  .line_left,
-  .line_right {
-    display: inline-block;
-    width: 20px;
-    height: 2px;
-    background-color: #444545;
-    margin: -3px 13px 0 12px;
+    font-size: 14px;
   }
 
   .summitDetailText_content {
-    margin-top: 23px;
+    width: 50.86vw;
+  }
+
+  .summitText_content {
+    display: none;
   }
 
   .summitDetail_text {
+    font-size: 16px;
     line-height: 37px;
   }
+
+  .side_button {
+    display: none;
+  }
+
+  .title_content.summary {
+    margin-top: 3.45vw;
+  }
+
+  .subTitle_text.event {
+    font-size: 14px;
+  }
+
+  .summaryDetail_title {
+    font-size: 15px;
+    padding: 5px 8px 5px 8px;
+  }
+
+  .summaryDetail_content {
+    margin-left: 3.45vw;
+  }
+
+  .summaryDetail_title {
+    width: 100px;
+  }
+
+  .start_text {
+    font-size: 14px;
+  }
+
+  .kaijou_text {
+    display: none;
+  }
+
+  .end_text {
+    display: none;
+  }
+
+  .jikan.hidden {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 1.03vw;
+  }
+
+  .uketuke.hidden {
+    display: block;
+    font-size: 14px;
+    margin-left: 2.76vw;
+  }
+
+  .border_dot {
+    width: 347px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .summaryDetail_detail.kokusai {
+    display: none;
+  }
+
+  .summaryDetail_detail_sp.hidden {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 2.07vw;
+  }
+
+  .summaryDetail_title.event {
+    font-size: 14px;
+  }
+
+  .kigyou_text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .bisines_text {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .keiei_text {
+    display: none;
+  }
+
+  .keieisya.hidden,
+  .siritu.hidden {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .mini_text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 1.03vw;
+  }
+
+  .mini_text.eki {
+    margin-left: 2.59vw;
+  }
+
+  .moyori_text {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+    margin-right: 0.69vw;
+  }
+
+  .map_content {
+    display: none;
+  }
+
+  .iframe_content.hidden {
+    display: block;
+    width: 65.52vw;
+    margin: 6.9vw auto 6.9vw;
+  }
+
+  .iframe_content.hidden iframe {
+    width: 59.48vw;
+    height: 34.48vw;
+  }
+}
+
+@media screen and (max-width: 390px) {
+ 
+
+  
+
+  
 }
