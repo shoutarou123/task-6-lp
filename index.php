@@ -143,17 +143,19 @@
         </div>
         <p class="fukidashi_text">出会いたい企業にきっと出会える</p>
         <img class="fukidashi_img" src="./img/Vector 15.svg">
+        <img class="fukidashi_img hidden" src="./img/sp/Vector 15.png">
         <p class="explanation_content">
           <span class="number_text">60</span><span class="explanation_text">ブースの企業エリア</span>
         </p>
         <img class="explanation_img" src="./img/AdobeStock_239185211 1.png">
       </div>
-      <div class="square">
+      <div class="square bottom">
         <div class="heading_text_content">
         <p class="heading_text">各業界の著名人が登壇</p>
         </div>
-        <p class="fukidashi_text">ここでしか聞けない話が聞ける</p>
+        <p class="fukidashi_text bottom">ここでしか聞けない話が聞ける</p>
         <img class="fukidashi_img" src="./img/Vector 15.svg">
+         <img class="fukidashi_img hidden" src="./img/sp/Vector 15.png">
         <p class="explanation_content gouka">
           <span class="explanation_text">豪華セミナーを開催</span>
         </p>
