@@ -221,7 +221,7 @@
           </div>
         </div>
 
-        <div class="flex company">
+        <div class="flex company quartet">
           <div class="logo_img_content">
             <img class="logo_img quartet" src="./img/image 18.png">
           </div>

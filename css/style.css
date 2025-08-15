@@ -330,7 +330,7 @@ li {
 
 .start_text {
   position: relative;
-  right: clamp(-99px, -1.8055vw, -25.99px)
+  right: clamp(-99px, -1.8055vw, -25.99px);
 }
 
 .kaijou_text {
@@ -354,7 +354,7 @@ li {
 .border_dot {
   display: block;
   width: clamp(1px, 68.05vw, 960px);
-  height:  clamp(-99px, 0.0694vw, 1px);
+  height: clamp(-99px, 0.0694vw, 1px);
   border-bottom: dotted clamp(-99px, 0.0694vw, 1px) red;
   margin-top: clamp(1px, 2.361vw, 33.99px);
 }
@@ -456,7 +456,7 @@ li {
 }
 
 .mini_text.eki {
-  margin-left: clamp(-99px, 1.0416vw, 14.99px)
+  margin-left: clamp(-99px, 1.0416vw, 14.99px);
 }
 
 .mini_text.title.tika {
@@ -1170,63 +1170,96 @@ iframe {
     height: 35.65vw;
   }
 
-/* ----- ピックアップセクション ----- */
-.side_bar {
-  width: 10px;
-  height: 655px;
-}
+  /* ----- ピックアップセクション ----- */
+  .side_bar {
+    width: 10px;
+    height: 655px;
+  }
 
-.company_text {
-  font-size: 14px;
-  font-weight: 500;
-  width: 338px;
-}
+  .title_content.pickUp {
+    margin-top: 6.55vw;
+  }
 
-.logo_img.oplan {
-  width: 73.5px;
-  height: 20px;
-}
+  .event_text.pickUp {
+    margin: 0 4.31vw 0 4.31vw;
+  }
 
-.link_text.oplan {
-  display: none;
-}
+  .logo_img_content {
+    margin-top: 2.75vw;
+    margin-right: 5.172vw;
+  }
 
-.logo_img.peBank {
-  width: 154px;
-  height: 12.68px;
-}
+  .company_text {
+    font-size: 2.41vw;
+    font-weight: 500;
+    width: 58.27vw;
+  }
 
-.logo_img.boc {
-  width: 177.86px;
-  height: 20px;
-}
+  .logo_img.oplan {
+    width: 12.67vw;
+    height: 3.448vw;
+  }
 
-.logo_img.creava {
-  width: 124px;
-  height: 57px;
-}
+  .link_text.oplan {
+    display: none;
+  }
 
-.company_text.creava {
-    width: 342px;
-}
+  .logo_img.peBank {
+    width: 26.55vw;
+    height: 2.186vw;
+    position: relative;
+    top: -1.724vw;
+    left: -3.79vw;
+  }
 
-.logo_img.sucSak {
-  width: 77px;
-  height: 17px;
-}
+  .logo_img.boc {
+    width: 30.66vw;
+    height: 3.44vw;
+    position: relative;
+    top: -1.379vw;
+    left: -3.1034vw;
+  }
 
-.text_colon,
-.link_sucSak {
-  font-size: 14px;
-  font-weight: 500;
-}
+  .logo_img.creava {
+    width: 21.37vw;
+    height: 9.827vw;
+    position: relative;
+    left: -6.206vw;
+    top: -2.6896vw;
+  }
 
-.logo_img.quartet {
-  width: 68px;
-  height: 28px ;
-}
+  .company_text.creava {
+    width: 58.96vw;
+    margin-top: -3.1034vw;
+  }
 
+  .block.sucSak {
+    margin-left: 8.275vw;
+    position: relative;
+    top: 1.034vw;
+  }
 
+  .logo_img.sucSak {
+    width: 13.27vw;
+    height: 2.93vw;
+  }
+
+  .text_colon,
+  .link_sucSak {
+    font-size: 2.413vw;
+    font-weight: 500;
+  }
+
+  .logo_img.quartet {
+    width: 11.72vw;
+    height: 4.827vw;
+    position: relative;
+    left: -1.724vw;
+  }
+
+  .company_text {
+    margin-top: 2.758vw;
+  }
 }
 
 @media screen and (max-width: 508px) {
@@ -1235,9 +1268,25 @@ iframe {
   }
 }
 
+@media screen and (max-width: 520px) {
+  .side_bar {
+    height: 620px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .side_bar {
+    height: 580px;
+  }
+}
+
 @media screen and (max-width: 437px) {
   .freelance_section {
     margin-bottom: 900px;
+  }
+
+  .side_bar {
+    height: 540px;
   }
 }
 
