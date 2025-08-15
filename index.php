@@ -129,11 +129,10 @@
   </section>
 
   <section class="contents_section">
-    
-      <div class="title_content contens">
-        <h2 class="title_h2 contents">Contents</h2>
-        <p class="subTitle_text contens"><span class="line_left contens"></span><span class="event_text contens">イベント内容</span><span class="line_right contents"></span></p>
-      </div>
+
+    <div class="title_content contens">
+      <h2 class="title_h2 contents">Contents</h2>
+      <p class="subTitle_text contens"><span class="line_left contens"></span><span class="event_text contens">イベント内容</span><span class="line_right contents"></span></p>
     </div>
 
     <div class="flex">
@@ -151,11 +150,11 @@
       </div>
       <div class="square bottom">
         <div class="heading_text_content">
-        <p class="heading_text">各業界の著名人が登壇</p>
+          <p class="heading_text">各業界の著名人が登壇</p>
         </div>
         <p class="fukidashi_text bottom">ここでしか聞けない話が聞ける</p>
         <img class="fukidashi_img" src="./img/Vector 15.svg">
-         <img class="fukidashi_img hidden" src="./img/sp/Vector 15.png">
+        <img class="fukidashi_img hidden" src="./img/sp/Vector 15.png">
         <p class="explanation_content gouka">
           <span class="explanation_text">豪華セミナーを開催</span>
         </p>
@@ -165,12 +164,80 @@
     <div class="button_content contents">
       <a class="button_text" href="#"><span class="jizen_text">事前申し込みはこちら</span><span class="muryo_text">（無料）</span><img class="line_img" src="./img/LINE_Brand_icon 1.png"></a>
     </div>
-    
-
   </section>
 
-  <section>
-    
+  <section class="pickUp_section">
+
+    <div class="flex_between pickUp">
+      <div class="side_bar"></div>
+
+
+      <div class="center_content">
+
+        <div class="title_content pickUp">
+          <h2 class="title_h2 pickUp">Pick Up</h2>
+          <p class="subTitle_text pickUp"><span class="line_left pickUp"></span><span class="event_text pickUp">注目の企業</span><span class="line_right pickUp"></span></p>
+        </div>
+
+        <div class="flex company">
+          <div class="logo_img_content">
+            <img class="logo_img oplan" src="./img/image 15.png">
+          </div>
+          <div class="explanation_block oplan">
+            <p class="company_text oplan">オープラン株式会社は「ITサービス」を軸に「人」と「グローバル」に向き合い日本を代表する企業になるべく2015年に産声をあげたベンチャー企業です。</p>
+            <a class="link_text oplan" href="https://oplan.co.jp/">https://oplan.co.jp/</a>
+          </div>
+        </div>
+
+        <div class="flex company">
+          <div class="logo_img_content">
+            <img class="logo_img peBank" src="./img/Frame.png">
+          </div>
+          <div class="explanation_block peBank">
+            <p class="company_text peBank">ITフリーランスの仕事探しなら【PE-BANK】へ。Web・SE系を中心に毎月1,000件以上のご紹介。</p>
+          </div>
+        </div>
+
+        <div class="flex company boc">
+          <div class="logo_img_content">
+            <img class="logo_img boc" src="./img/image 14.png">
+          </div>
+          <div class="explanation_block boc">
+            <p class="company_text boc">台湾の「食文化」の導入により、日本の飲食業をクリエイティブに。</p>
+          </div>
+        </div>
+
+        <div class="flex company creava">
+          <div class="logo_img_content">
+            <img class="logo_img creava" src="./img/image 17.png">
+          </div>
+          <div class="explanation_block creava">
+            <p class="company_text creava">月額制システム開発チームレンタルSucSak(サクサク)を運営している東京新宿のシステム開発会社です。</p>
+
+            <div class="block sucSak">
+              <img class="logo_img sucSak" src="./img/image 16.png">
+              <span class="text_colon">:</span><a class="link_sucSak" href="https://sucsak.com/">https://sucsak.com/</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex company">
+          <div class="logo_img_content">
+            <img class="logo_img quartet" src="./img/image 18.png">
+          </div>
+
+          <div class="explanation_block quartet">
+            <p class="company_text quartet">1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。</p>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="side_bar"></div>
+
+    </div>
   </section>
 </body>
 
