@@ -610,7 +610,8 @@ iframe {
 
 .title_content.pickUp {
   text-align: center;
-  margin-top: clamp(-99px, 2.777vw, 39.98px);
+  /* margin-top: clamp(-99px, 2.777vw, 39.98px); */
+  margin-top: 2.777vw;
   margin-left: clamp(-99px, 0.2083vw, 2.99px);
 }
 
@@ -753,7 +754,79 @@ iframe {
   width: clamp(-99px, 46.5277vw, 669.99px);
 }
 
+/* ----- About Exhibitors セクション ----- */
+.about_section {
+  background-image: url("../img/Group\ 192.svg");
+  background-position: left 0px top -27px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  /* aspect-ratio: 1491.72 / 517.01; */
+  width: 100%;
+}
+
+.about_section_inner_content {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.title_content.about {
+  text-align: center;
+  /* width: 500px; */
+  margin-top: 0px;
+  padding-top: 17px;
+}
+
+.subTitle_text.about {
+  margin-top: 8px;
+  margin-right: 9px;
+}
+
+.line_left.about {
+  position: relative;
+  top: 1px;
+  left: -29px;
+}
+
+.line_right.about {
+  position: relative;
+  left: 38px;
+}
+
+.flex.about {
+  margin-top: 88px;
+  margin-left: -114px;
+}
+
+.company_list {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 200%;
+}
+
+.company_list.right {
+  position: relative;
+  left: 58px;
+}
+
+.junfudo_text_content {
+  margin-top: 27px;
+}
+
+.junfudo_text {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: right;
+  padding-right: 20px;
+}
+
+
 /* *********** レスポンシブ *************** */
+@media screen and (min-width: 1441px) {
+  .title_content.pickUp {
+    margin-top: 4.44vw;
+  }
+}
+
 @media screen and (max-width: 1390px) {
   .logo_img {
     width: 13.437vw;

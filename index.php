@@ -239,6 +239,46 @@
 
     </div>
   </section>
+
+  <section class="about_section">
+    <div class="about_section_inner_content">
+      <div class="title_content about">
+        <h2 class="title_h2 about">About Exhibitors</h2>
+        <p class="subTitle_text about"><span class="line_left about"></span><span class="event_text about">出展企業一覧</span><span class="line_right about"></span></p>
+      </div>
+
+      <div class="flex about">
+        <div class="company_list left">
+          <p>オープラン株式会社</p>
+          <p>株式会社ビズリンク</p>
+          <p>株式会社カルテットコミュニケーションズ</p>
+          <p>クリーヴァ株式会社</p>
+          <p>株式会社グラントホープ</p>
+          <p>Modis株式会社</p>
+          <p>INTLOOP株式会社</p>
+          <p>Langdemy株式会社</p>
+          <p>BOCジャパン合同会社</p>
+        </div>
+        <div class="company_list right">
+          <p>株式会社アユザック</p>
+          <p>株式会社HandAid</p>
+          <p>株式会社J-Proach</p>
+          <p>ラーメン協会</p>
+          <p>株式会社おウチdeお肉</p>
+          <p>株式会社LifeCoach</p>
+          <p>株式会社スポーツ＆ライフイノベーション</p>
+          <p>株式会社iGO</p>
+          <p>株式会社エドモンド</p>
+        </div>
+      </div>
+      <div class="junfudo_text_content">
+        <p class="junfudo_text">
+          （順不同、一部企業のみ掲載）
+        </p>
+      </div>
+    </div>
+  </section>
+
 </body>
 
 </html>
