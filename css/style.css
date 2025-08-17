@@ -1697,6 +1697,167 @@ iframe {
     margin-top: 3.076vw;
     margin-left: 1.28vw;
   }
+
+  /* ----- ピックアップセクション ----- */
+
+  .side_bar {
+    height: 202.56vw;
+  }
+
+  .center_content.pickUp {
+    width: 94.87vw;
+    margin-bottom: 5.128vw;
+  }
+
+  .title_content.pickUp {
+    margin-top: 10vw;
+    margin-left: 6.1538vw;
+  }
+
+  .subTitle_text.pickUp {
+    margin-top: 2.307vw;
+    margin-left: -0.769vw;
+  }
+
+  .line_left.pickUp {
+    position: relative;
+    left: -4.615vw;
+  }
+
+  .line_right.pickUp {
+    position: relative;
+    left: 4.615vw;
+  }
+
+  .logo_img_content {
+    margin-top: 8.717vw;
+    margin-left: -2.56vw;
+  }
+
+  .logo_img.oplan {
+    width: 18.97vw;
+    height: 5.128vw;
+  }
+
+  .explanation_block.oplan {
+    margin-top: 1.28vw;
+    margin-left: 3.0769vw;
+  }
+
+  .company_text.oplan {
+    font-size: 3.589vw;
+    width: 93.33vw;
+    letter-spacing: 0.056em;
+    line-height: 1.6em;
+  }
+
+  .logo_img_content.peBank {
+    margin-left: -10.769vw;
+    margin-top: 7.69vw;
+  }
+
+  .logo_img.peBank {
+    width: 42.05vw;
+    height: 3.33vw;
+  }
+
+  .explanation_block.peBank {
+    margin-top: 1.79vw;
+    margin-left: 3.0769vw;
+    text-align: center;
+  }
+
+  .company_text.peBank {
+    font-size: 3.589vw;
+    width: 81.53vw;
+    letter-spacing: 0.015em;
+    line-height: 1.5em;
+  }
+
+  .logo_img_content.boc {
+    margin-top: 7.179vw;
+    margin-left: -14.87vw;
+  }
+
+  .logo_img.boc {
+    width: 48.205vw;
+    height: 5.128vw;
+  }
+
+  .explanation_block.boc {
+    margin-top: 1.28vw;
+    margin-left: 0.512vw;
+  }
+
+  .company_text.boc {
+    font-size: 3.589vw;
+    width: 90.769vw;
+    letter-spacing: 0.056em;
+    line-height: 1.5em;
+  }
+
+  .logo_img_content.creava {
+    margin-top: 12.307vw;
+    margin-left: -5.128vw;
+  }
+
+  .logo_img.creava {
+    width: 34.358vw;
+    height: 14.615vw;
+  }
+
+  .explanation_block.creava {
+    margin-top: -0.512vw;
+    margin-left: 0.769vw;
+  }
+
+  .company_text.creava {
+    font-size: 3.589vw;
+    width: 92.564vw;
+    letter-spacing: 0.056em;
+    line-height: 1.5em;
+  }
+
+  .block.sucSak {
+    margin-top: 1.025vw;
+    margin-left: 15.128vw;
+  }
+
+  .logo_img.sucSak {
+    width: 21.28vw;
+    height: 4.358vw;
+  }
+  .text_colon {
+    font-size: 3.589vw;
+  }
+
+  .link_sucSak {
+    font-size: 3.589vw;
+    margin-left: 1.538vw;
+    letter-spacing: 0.03em;
+  }
+
+  .logo_img_content.quartet {
+    margin-top: 10.256vw;
+    margin-left: -9.23vw;
+  }
+
+  .logo_img.quartet {
+    width: 28.97vw;
+    height: 10.769vw;
+  }
+
+  .explanation_block.quartet {
+    margin-top: 0.256vw;
+    text-align: center;
+  }
+
+  .company_text.quartet {
+    font-size: 3.589vw;
+    width: 92.564vw;
+    letter-spacing: 0.056em;
+    line-height: 1.5em;
+  }
 }
 
 @media screen and (max-width: 375px) {

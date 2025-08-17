@@ -172,7 +172,7 @@
       <div class="side_bar"></div>
 
 
-      <div class="center_content">
+      <div class="center_content pickUp">
 
         <div class="title_content pickUp">
           <h2 class="title_h2 pickUp">Pick Up</h2>
@@ -190,7 +190,7 @@
         </div>
 
         <div class="flex company">
-          <div class="logo_img_content">
+          <div class="logo_img_content peBank">
             <img class="logo_img peBank" src="./img/Frame.png">
           </div>
           <div class="explanation_block peBank">
@@ -199,7 +199,7 @@
         </div>
 
         <div class="flex company boc">
-          <div class="logo_img_content">
+          <div class="logo_img_content boc">
             <img class="logo_img boc" src="./img/image 14.png">
           </div>
           <div class="explanation_block boc">
@@ -208,7 +208,7 @@
         </div>
 
         <div class="flex company creava">
-          <div class="logo_img_content">
+          <div class="logo_img_content creava">
             <img class="logo_img creava" src="./img/image 17.png">
           </div>
           <div class="explanation_block creava">
@@ -222,7 +222,7 @@
         </div>
 
         <div class="flex company quartet">
-          <div class="logo_img_content">
+          <div class="logo_img_content quartet">
             <img class="logo_img quartet" src="./img/image 18.png">
           </div>
 
