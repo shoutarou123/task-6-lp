@@ -109,6 +109,7 @@
             <p class="mini_text title"><span class="dot jr"></span>JR</p>
             <p class="mini_text eki">有楽町駅より徒歩1分</p>
             <p class="mini_text eki">東京駅より徒歩5分</p>
+
             <p class="mini_text title tika"><span class="dot tika"></span>地下鉄</p>
             <p class="mini_text eki">有楽町線<span class="eki_text"><span class="koron">：</span>有楽町駅(B1F地下コンコースにて連絡)</span></p>
             <p class="mini_text eki">千代田線<span class="eki_text"><span class="koron">：</span>二重橋前駅より徒歩5分/日比谷駅より徒歩7分</span></p>
@@ -247,11 +248,11 @@
         <p class="subTitle_text about"><span class="line_left about"></span><span class="event_text about">出展企業一覧</span><span class="line_right about"></span></p>
       </div>
 
-      <div class="flex about">
+      <div class="flex_about">
         <div class="company_list left">
           <p>オープラン株式会社</p>
           <p>株式会社ビズリンク</p>
-          <p>株式会社カルテットコミュニケーションズ</p>
+          <p class="karu_text">株式会社カルテットコミュニケーションズ</p>
           <p>クリーヴァ株式会社</p>
           <p>株式会社グラントホープ</p>
           <p>Modis株式会社</p>
@@ -266,7 +267,7 @@
           <p>ラーメン協会</p>
           <p>株式会社おウチdeお肉</p>
           <p>株式会社LifeCoach</p>
-          <p>株式会社スポーツ＆ライフイノベーション</p>
+          <p class="sport_text">株式会社スポーツ＆ライフイノベーション</p>
           <p>株式会社iGO</p>
           <p>株式会社エドモンド</p>
         </div>
