@@ -108,14 +108,14 @@
             <p class="moyori_text">【最寄駅】</p>
             <p class="mini_text title"><span class="dot jr"></span>JR</p>
             <p class="mini_text eki">有楽町駅より徒歩1分</p>
-            <p class="mini_text eki">東京駅より徒歩5分</p>
+            <p class="mini_text eki tokyo">東京駅より徒歩5分</p>
 
             <p class="mini_text title tika"><span class="dot tika"></span>地下鉄</p>
-            <p class="mini_text eki">有楽町線<span class="eki_text"><span class="koron">：</span>有楽町駅(B1F地下コンコースにて連絡)</span></p>
-            <p class="mini_text eki">千代田線<span class="eki_text"><span class="koron">：</span>二重橋前駅より徒歩5分/日比谷駅より徒歩7分</span></p>
-            <p class="mini_text eki">丸ノ内線<span class="eki_text"><span class="koron">：</span>銀座駅より徒歩5分</span></p>
-            <p class="mini_text eki">銀座線<span class="eki_text"><span class="koron">：</span>銀座駅より徒歩7分/京橋駅より徒歩7分</span></p>
-            <p class="mini_text eki">三田線<span class="eki_text"><span class="koron">：</span>日比谷駅より徒歩5分</span></p>
+            <p class="mini_text eki sen">有楽町線<span class="eki_text"><span class="koron">：</span><span class="ekinaiyo yuraku">有楽町駅(B1F地下コンコースにて連絡)</span></span></p>
+            <p class="mini_text eki sen tida">千代田線<span class="eki_text"><span class="koron">：</span><span class="ekinaiyo">二重橋前駅より徒歩5分/日比谷駅より徒歩7分</span></span></p>
+            <p class="mini_text eki sen maru">丸ノ内線<span class="eki_text"><span class="koron">：</span>銀座駅より徒歩5分</span></p>
+            <p class="mini_text eki sen ginza">銀座線<span class="eki_text"><span class="koron">：</span><span class="ekinaiyo">銀座駅より徒歩7分/京橋駅より徒歩7分</span></span></p>
+            <p class="mini_text eki sen mita">三田線<span class="eki_text"><span class="koron">：</span><span class="ekinaiyo">日比谷駅より徒歩5分</span></span></p>
 
           </div>
           <div class="map_content">
@@ -130,7 +130,6 @@
   </section>
 
   <section class="contents_section">
-
     <div class="title_content contens">
       <h2 class="title_h2 contents">Contents</h2>
       <p class="subTitle_text contens"><span class="line_left contens"></span><span class="event_text contens">イベント内容</span><span class="line_right contents"></span></p>
@@ -144,10 +143,10 @@
         <p class="fukidashi_text">出会いたい企業にきっと出会える</p>
         <img class="fukidashi_img" src="./img/Vector 15.svg">
         <img class="fukidashi_img hidden" src="./img/sp/Vector 15.png">
-        <p class="explanation_content">
-          <span class="number_text">60</span><span class="explanation_text">ブースの企業エリア</span>
+        <p class="explanation_content busu">
+          <span class="number_text">60</span><span class="explanation_text busu">ブースの企業エリア</span>
         </p>
-        <img class="explanation_img" src="./img/AdobeStock_239185211 1.png">
+        <img class="explanation_img busu" src="./img/AdobeStock_239185211 1.png">
       </div>
       <div class="square bottom">
         <div class="heading_text_content">
@@ -157,7 +156,7 @@
         <img class="fukidashi_img" src="./img/Vector 15.svg">
         <img class="fukidashi_img hidden" src="./img/sp/Vector 15.png">
         <p class="explanation_content gouka">
-          <span class="explanation_text">豪華セミナーを開催</span>
+          <span class="explanation_text gouka">豪華セミナーを開催</span>
         </p>
         <img class="explanation_img gouka" src="./img/img3 1.png">
       </div>
@@ -168,13 +167,11 @@
   </section>
 
   <section class="pickUp_section">
-
     <div class="flex_between pickUp">
+
       <div class="side_bar"></div>
 
-
       <div class="center_content pickUp">
-
         <div class="title_content pickUp">
           <h2 class="title_h2 pickUp">Pick Up</h2>
           <p class="subTitle_text pickUp"><span class="line_left pickUp"></span><span class="event_text pickUp">注目の企業</span><span class="line_right pickUp"></span></p>
@@ -232,9 +229,7 @@
 
           </div>
         </div>
-
       </div>
-
 
       <div class="side_bar"></div>
 
@@ -278,6 +273,190 @@
         </p>
       </div>
     </div>
+  </section>
+
+  <section class="time_schedule_section">
+    <div class="time_schedule_inner_content">
+
+      <div class="title_content schedule">
+        <h2 class="title_h2 schedule">Time Schedule</h2>
+        <p class="subTitle_text schedule"><span class="line_left_schedule"></span><span class="event_text schedule">タイムスケジュール</span><span class="line_right_schedule"></span></p>
+      </div>
+
+      <div class="grid_content">
+        <div class="square_schedule">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">10:00～</span>
+          </div>
+          <div class="face_img_content">
+            <img class="face_img" src="./img/schedule/pc/Group 218.png">
+          </div>
+          <p class="catchphrase_text first">今、<span class="sns_text">SNS</span><span class="hajimeru_text">を始めるなら</span></p>
+        </div>
+
+        <div class="square_schedule">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">11:00～</span>
+          </div>
+          <div class="face_img_content">
+            <img class="face_img second" src="./img/schedule/pc/Group 167.png">
+          </div>
+          <p class="catchphrase_text second">会社員で出世する人と独立して成功する人の適正について</p>
+        </div>
+
+        <div class="square_schedule three">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">11:40～</span>
+          </div>
+          <div class="face_img_content">
+            <img class="face_img three" src="./img/schedule/pc/Group 168.png">
+          </div>
+          <p class="catchphrase_text three">営業出身のフリーランスの生存戦略</p>
+        </div>
+
+        <div class="square_schedule four">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">12:20～</span>
+          </div>
+          <div class="face_img_content">
+            <img class="face_img" src="./img/schedule/pc/Group 169.png">
+          </div>
+          <p class="catchphrase_text four">無数のフリーランスに発注してわかった優秀な人の特徴</p>
+        </div>
+
+        <div class="square_schedule">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">13:00～</span>
+          </div>
+          <div class="face_img_content">
+            <img class="face_img" src="./img/schedule/pc/Group 166.png">
+          </div>
+          <p class="catchphrase_text five top">現役上場企業社長が語る
+          </p>
+          <p class="catchphrase_text five bottom">
+            最新WEBマーケティング論</p>
+        </div>
+
+        <div class="square_schedule six">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">13:40～</span>
+          </div>
+          <div class="face_img_content six">
+            <img class="face_img six" src="./img/schedule/pc/Group 170.png">
+          </div>
+          <p class="catchphrase_text six">月収300万円までのロードマップ</p>
+        </div>
+
+        <div class="square_schedule seven">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">14:20～</span>
+          </div>
+          <div class="face_img_content seven_flex">
+            <img class="face_img seven left" src="./img/schedule/pc/Mask group-1.png">
+            <img class="face_img seven center" src="./img/schedule/pc/Mask group (1).png">
+            <img class="face_img seven right" src="./img/schedule/pc/Mask group.png">
+          </div>
+          <div class="rectangle_img_content">
+            <img class="rectangle_img" src="./img/schedule/pc/Rectangle 127.png">
+            <div class="name_text_flex">
+              <div class="name_text_left_content">
+                <p class="name_text left top">やまもと</p>
+                <p class="name_text left bottom">りゅうけん</p>
+              </div>
+              <img class="cross_img_left" src="./img/schedule/pc/Group 176.png">
+              <p class="name_text center">迫佑樹</p>
+              <img class="cross_img_right" src="./img/schedule/pc/Group 176.png">
+              <p class="name_text right">青笹寛史</p>
+            </div>
+          </div>
+          <p class="catchphrase_text seven">SNSを伸ばした先に見える世界</p>
+        </div>
+
+        <div class="square_schedule eight">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">15:00～</span>
+          </div>
+          <div class="face_img_content eight">
+            <img class="face_img eight" src="./img/schedule/pc/inoue.png">
+          </div>
+          <p class="catchphrase_text eight">元サイバーエージェント局長による広告業界の未来予想図</p>
+        </div>
+
+        <div class="square_schedule nine">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">15:40～</span>
+          </div>
+          <div class="face_img_content nine_flex">
+            <img class="face_img nine left" src="./img/schedule/pc/Group 189.png">
+            <img class="face_img nine right" src="./img/schedule/pc/Group 190.png">
+          </div>
+          <div class="rectangle_img_content_nine">
+            <img class="rectangle_img_nine" src="./img/schedule/pc/Group 179.png">
+            <img class="cross_img_nine" src="./img/schedule/pc/Group 176 (1).png">
+          </div>
+          <p class="catchphrase_text nine top">エンジニアとして独立し、</p>
+          <p class="catchphrase_text nine bottom">年収3000万円を超える方法</p>
+        </div>
+
+        <div class="square_schedule ten">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">16:20～</span>
+          </div>
+          <div class="face_img_content ten">
+            <img class="face_img ten" src="./img/schedule/pc/Group 178.png">
+          </div>
+          <p class="catchphrase_text ten">累計300人以上、起業家を見て感じた成功法則</p>
+        </div>
+
+        <div class="square_schedule eleven">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text">17:00～</span>
+          </div>
+          <div class="face_img_content eleven">
+            <img class="face_img eleven" src="./img/schedule/pc/Group 223.png">
+          </div>
+          <p class="catchphrase_text eleven">フリーランスにおすすめのM＆Aトレンドを紹介</p>
+        </div>
+
+       <div class="square_schedule twelve">
+          <div class="ribbon_content">
+            <img class="ribbon_img" src="./img/schedule/pc/Group 219.png">
+            <span class="time_text twelve">MC</span>
+          </div>
+          <div class="face_img_content twelve">
+            <img class="face_img twelve" src="./img/schedule/pc/kane (1).png">
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
   </section>
 
 </body>
