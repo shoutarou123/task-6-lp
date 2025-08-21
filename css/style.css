@@ -2094,7 +2094,7 @@ iframe {
 
 @media screen and (max-width: 580px) {
   .fv_section {
-    background-image: url("../img/sp/Group\ 184.png");
+    background-image: url("../img/Group\ 184.png");
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -2166,7 +2166,7 @@ iframe {
 
   /* --Freelance セクション */
   .freelance_section {
-    background-image: url("../img/sp/Group_186.svg");
+    background-image: url("../img/Group_186.svg");
     height: 103.45vw;
     aspect-ratio: 390 / 418;
     margin-bottom: 800px;
@@ -2496,7 +2496,7 @@ iframe {
   /* ----- Abount Exhibitorsセクション ----- */
 
   .about_section {
-    background-image: url("../img/sp/Group\ 193.svg");
+    background-image: url("../img/Group\ 193.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -3517,7 +3517,7 @@ iframe {
 
   /* ----- About Exhibitors ----- */
   .about_section {
-    background-image: url("../img/sp/Group\ 193.svg");
+    background-image: url("../img/Group\ 193.svg");
     background-position: center top 28px;
     background-repeat: no-repeat;
     background-size: cover;

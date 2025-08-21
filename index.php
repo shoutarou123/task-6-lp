@@ -20,7 +20,7 @@
       <div class="main_visual_img_content">
         <img class="main_visual_img" src="./img/freelancesummit.png">
         <img class="sub_visual_img" src="./img/sponsoreddym.png">
-        <img class="sub_visual_img_sp hidden" src="./img/sp/sub_title.png">
+        <img class="sub_visual_img_sp hidden" src="./img/sub_title.png">
       </div>
       <div class="date_content">
         <span class="date_text">3/4</span><span class="dayOfWeek_text">Sat</span><span class="timeStart_text">10:00-</span><span class="timeEnd_text">18:00</span>
@@ -142,7 +142,7 @@
         </div>
         <p class="fukidashi_text">出会いたい企業にきっと出会える</p>
         <img class="fukidashi_img" src="./img/Vector 15.svg">
-        <img class="fukidashi_img hidden" src="./img/sp/Vector 15.png">
+        <img class="fukidashi_img hidden" src="./img/Vector 15.png">
         <p class="explanation_content busu">
           <span class="number_text">60</span><span class="explanation_text busu">ブースの企業エリア</span>
         </p>
@@ -154,7 +154,7 @@
         </div>
         <p class="fukidashi_text bottom">ここでしか聞けない話が聞ける</p>
         <img class="fukidashi_img" src="./img/Vector 15.svg">
-        <img class="fukidashi_img hidden" src="./img/sp/Vector 15.png">
+        <img class="fukidashi_img hidden" src="./img/Vector 15.png">
         <p class="explanation_content gouka">
           <span class="explanation_text gouka">豪華セミナーを開催</span>
         </p>
@@ -658,7 +658,7 @@
       <div class="footer_underline pc1300 pc580"></div>
       <div class="footer_logo_img_content pc390">
         <img class="footer_logo_img pc800 hidden" src="./img/Group 224.png">
-        <img class="footer_logo_img_pc580 pc390" src="./img/sp/footer_logo.png">
+        <img class="footer_logo_img_pc580 pc390" src="./img/footer_logo.png">
       </div>
     </div>
   </footer>
