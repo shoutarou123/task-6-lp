@@ -607,55 +607,58 @@
       </div>
   </section>
 
-  <section class="faq_section faq">
-    <div class="faq_inner_content">
+  <section class="faq_section faq pc580">
+    <div class="faq_inner_content pc1300">
 
-      <div class="title_content faq">
-        <h2 class="title_h2 faq">FAQ</h2>
-        <p class="subTitle_text faq">
-          <span class="line_left faq"></span>
-          <span class="event_text faq">よくある質問</span>
-          <span class="line_right faq"></span>
+      <div class="title_content faq pc1200 pc1100 pc900 pc750 pc580 pc390">
+        <h2 class="title_h2 faq pc1300 pc800 pc580 pc390">FAQ</h2>
+        <p class="subTitle_text faq pc800 pc390">
+          <span class="line_left faq pc580 pc390"></span>
+          <span class="event_text faq pc1300 pc800 pc580 pc390">よくある質問</span>
+          <span class="line_right faq pc580 pc390"></span>
         </p>
       </div>
 
-      <div class="content_flex_container">
-        <div class="content_flex">
-          <img class="qa_img" src="./img/Group 236.png">
-          <p class="qa_text">再入場はできますか？</p>
-        </div>
-        <div class="content_flex a1">
-          <img class="qa_img" src="./img/Group 237.png">
-          <p class="qa_text">できます。</p>
-        </div>
-        <div class="content_flex q2">
-          <img class="qa_img" src="./img/Group 236.png">
-          <p class="qa_text">入場にお金はかかりますか？</p>
-        </div>
-        <div class="content_flex a2">
-          <img class="qa_img" src="./img/Group 237.png">
-          <p class="qa_text">一切かかりません。</p>
-        </div>
-        <div class="content_flex q2">
-          <img class="qa_img" src="./img/Group 236.png">
-          <p class="qa_text">出展を希望する企業はどこから問い合わせれば良いですか？</p>
-        </div>
-        <div class="content_flex a2">
-          <img class="qa_img" src="./img/Group 237.png">
-          <a class="qa_text" href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちらからお願いします。</a>
+      <div class="content_flex_container pc1300 pc1100 pc900 pc800 pc750 pc620 pc580 pc500">
+        <div class="sp_content pc390">
+          <div class="content_flex pc1100 pc580">
+            <img class="qa_img pc700 pc390" src="./img/Group 236.png">
+            <p class="qa_text pc1000 pc580 pc390">再入場はできますか？</p>
+          </div>
+          <div class="content_flex a1 pc580 pc390">
+            <img class="qa_img pc700 pc390" src="./img/Group 237.png">
+            <p class="qa_text pc1000 pc580 pc390">できます。</p>
+          </div>
+          <div class="content_flex q2 pc1000 pc580 pc390">
+            <img class="qa_img pc700 pc390" src="./img/Group 236.png">
+            <p class="qa_text pc1000 pc580 pc390">入場にお金はかかりますか？</p>
+          </div>
+          <div class="content_flex a2 pc580 pc390">
+            <img class="qa_img pc700 pc390" src="./img/Group 237.png">
+            <p class="qa_text pc1000 pc580 pc390">一切かかりません。</p>
+          </div>
+          <div class="content_flex q2 pc1000 hidden">
+            <img class="qa_img pc700" src="./img/Group 236.png">
+            <p class="qa_text pc1000">出展を希望する企業はどこから問い合わせれば良いですか？</p>
+          </div>
+          <div class="content_flex a2 hidden">
+            <img class="qa_img pc700" src="./img/Group 237.png">
+            <a class="qa_text pc1000" href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちらからお願いします。</a>
+          </div>
         </div>
       </div>
     </div>
   </section>
 
   <footer>
-    <div class="footer_container">
-      <div class="guidance_button_content">
-        <a class="guidance_button" href="#">出展希望企業はこちら</a>
+    <div class="footer_container pc900 pc750 pc580 pc390">
+      <div class="guidance_button_content pc580 pc390">
+        <a class="guidance_button pc580 pc390" href="#">出展希望企業はこちら</a>
       </div>
-      <div class="footer_underline"></div>
-      <div class="footer_logo_img_content">
-        <img class="footer_logo_img" src="./img/Group 224.png">
+      <div class="footer_underline pc1300 pc580"></div>
+      <div class="footer_logo_img_content pc390">
+        <img class="footer_logo_img pc800 hidden" src="./img/Group 224.png">
+        <img class="footer_logo_img_pc580 pc390" src="./img/sp/footer_logo.png">
       </div>
     </div>
   </footer>
