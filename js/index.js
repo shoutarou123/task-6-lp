@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
   readMoreBtn.addEventListener('click', () => {
     accordionContent.classList.toggle('expanded');
     fade.style.display = accordionContent.classList.contains('expanded') ? 'none' : 'block';
-    readMoreBtn.textContent = accordionContent.classList.contains('expanded') ? '閉じる' : 'Read more';
+    readMoreBtn.textContent = accordionContent.classList.contains('expanded') ? 'Close' : 'Read more';
   });
 
 });

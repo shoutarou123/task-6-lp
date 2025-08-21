@@ -280,7 +280,7 @@
 
       <div class="title_content schedule">
         <h2 class="title_h2 schedule sp">Time Schedule</h2>
-        <p class="subTitle_text schedule"><span class="line_left_schedule sp"></span><span class="event_text schedule sp">タイムスケジュール</span><span class="line_right_schedule sp"></span></p>
+        <p class="subTitle_text schedule sp"><span class="line_left_schedule sp"></span><span class="event_text schedule sp">タイムスケジュール</span><span class="line_right_schedule sp"></span></p>
       </div>
 
       <div class="grid_content hidden">
@@ -458,18 +458,18 @@
 
 
 
-      <div class="square_schedule_sp_content">
+      <div class="square_schedule_sp_content hidden">
 
-        <div class="square_schedule_sp one">
-          <div class="ribbon_content_sp">
+        <div class="square_schedule_sp one sp370">
+          <div class="ribbon_content_sp sp390">
             <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
-            <span class="time_text_sp">10:00～</span>
+            <span class="time_text_sp sp390">10:00～</span>
           </div>
-          <div class="face_img_content_sp one">
+          <div class="face_img_content_sp sp390">
             <img class="face_img_sp one" src="./img/schedule/sp/Group 166.png">
           </div>
-          <div class="catchphrase_text_sp_content oneline">
-            <p class="catchphrase_text_sp one">
+          <div class="catchphrase_text_sp_content sp390 oneline">
+            <p class="catchphrase_text_sp one sp370">
               <span class="ima_text">今、</span>
               <span class="sns_text_sp">SNS</span>
               <span class="hajimeru_text_sp">を始めるなら</span>
@@ -477,31 +477,31 @@
           </div>
         </div>
 
-        <div class="square_schedule_sp two">
+        <div class="square_schedule_sp two sp370">
           <div class="ribbon_content_sp">
-            <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
-            <span class="time_text_sp">10:45～</span>
+            <img class="ribbon_img_sp two sp390" src="./img/schedule/sp/Group 194.png">
+            <span class="time_text_sp sp390 two">10:45～</span>
           </div>
           <div class="face_img_content_sp two">
-            <img class="face_img_sp two" src="./img/schedule/sp/Group 195.png">
+            <img class="face_img_sp two sp390" src="./img/schedule/sp/Group 195.png">
           </div>
-          <div class="catchphrase_text_sp_content twoline">
-            <p class="catchphrase_text_sp wide231 two">
+          <div class="catchphrase_text_sp_content twoline sp390">
+            <p class="catchphrase_text_sp wide231 two sp390 sp370">
               会社員で出世する人と独立して成功する人の適正について
             </p>
           </div>
         </div>
 
-        <div class="square_schedule_sp three">
+        <div class="square_schedule_sp three sp370">
           <div class="ribbon_content_sp">
-            <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
-            <span class="time_text_sp">11:30～</span>
+            <img class="ribbon_img_sp three sp390" src="./img/schedule/sp/Group 194.png">
+            <span class="time_text_sp three">11:30～</span>
           </div>
-          <div class="face_img_content_sp three">
-            <img class="face_img_sp three" src="./img/schedule/sp/Group 198.png">
+          <div class="face_img_content_sp three sp390">
+            <img class="face_img_sp three sp390" src="./img/schedule/sp/Group 198.png">
           </div>
-          <div class="catchphrase_text_sp_content twoline">
-            <p class="catchphrase_text_sp wide200 three">
+          <div class="catchphrase_text_sp_content twoline sp390 three">
+            <p class="catchphrase_text_sp wide200 three sp370">
               営業出身のフリーランスの生存戦略
             </p>
           </div>
@@ -510,7 +510,7 @@
 
         <div class="accordion_wrapper">
           <div class="schedule_list" id="accordionContent">
-            <div class="square_schedule_sp four">
+            <div class="square_schedule_sp four sp370">
               <div class="ribbon_content_sp">
                 <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
                 <span class="time_text_sp">12:15～</span>
@@ -519,12 +519,12 @@
                 <img class="face_img_sp four" src="./img/schedule/sp/Group 200.png">
               </div>
               <div class="catchphrase_text_sp_content twoline">
-                <p class="catchphrase_text_sp wide231 four">
+                <p class="catchphrase_text_sp wide231 four sp370">
                   無数のフリーランスに発注してわかった優秀な人の特徴
                 </p>
               </div>
             </div>
-            <div class="square_schedule_sp five">
+            <div class="square_schedule_sp five sp370">
               <div class="ribbon_content_sp">
                 <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
                 <span class="time_text_sp">12:30～</span>
@@ -533,12 +533,12 @@
                 <img class="face_img_sp five" src="./img/schedule/sp/Group 166 (1).png">
               </div>
               <div class="catchphrase_text_sp_content twoline">
-                <p class="catchphrase_text_sp wide231 five">
+                <p class="catchphrase_text_sp wide231 five sp370">
                   現役上場企業社長が語る最新WEBマーケティング論
                 </p>
               </div>
             </div>
-            <div class="square_schedule_sp six">
+            <div class="square_schedule_sp six sp370">
               <div class="ribbon_content_sp">
                 <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
                 <span class="time_text_sp">13:00～</span>
@@ -547,12 +547,12 @@
                 <img class="face_img_sp six" src="./img/schedule/sp/Group 202.png">
               </div>
               <div class="catchphrase_text_sp_content twoline">
-                <p class="catchphrase_text_sp wide200 six">
+                <p class="catchphrase_text_sp wide200 six sp370">
                   月収300万円までのロードマップ
                 </p>
               </div>
             </div>
-            <div class="square_schedule_sp seven">
+            <div class="square_schedule_sp seven sp370">
               <div class="ribbon_content_sp">
                 <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
                 <span class="time_text_sp">13:45～</span>
@@ -561,12 +561,12 @@
                 <img class="face_img_sp seven" src="./img/schedule/sp/Group 235.png">
               </div>
               <div class="catchphrase_text_sp_content twoline">
-                <p class="catchphrase_text_sp wide120 seven">
+                <p class="catchphrase_text_sp wide120 seven sp370">
                   SNSを伸ばした先に見える世界
                 </p>
               </div>
             </div>
-            <div class="square_schedule_sp eight">
+            <div class="square_schedule_sp eight sp370">
               <div class="ribbon_content_sp">
                 <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
                 <span class="time_text_sp">12:30～</span>
@@ -574,13 +574,13 @@
               <div class="face_img_content_sp eight">
                 <img class="face_img_sp eight" src="./img/schedule/sp/Group 234.png">
               </div>
-              <div class="catchphrase_text_sp_content twoline">
-                <p class="catchphrase_text_sp wide220 eight">
+              <div class="catchphrase_text_sp_content twoline sp370">
+                <p class="catchphrase_text_sp wide220 eight sp370">
                   元サイバーエージェント局長による広告業界の未来予想図
                 </p>
               </div>
             </div>
-            <div class="square_schedule_sp nine">
+            <div class="square_schedule_sp nine sp370">
               <div class="ribbon_content_sp">
                 <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
                 <span class="time_text_sp">15:15～</span>
@@ -589,12 +589,12 @@
                 <img class="face_img_sp nine" src="./img/schedule/sp/Group 211.png">
               </div>
               <div class="catchphrase_text_sp_content threeline">
-                <p class="catchphrase_text_sp wide155 nine">
+                <p class="catchphrase_text_sp wide155 nine sp370">
                   エンジニアとして独立し、年収3000万円を超える方法
                 </p>
               </div>
             </div>
-            <div class="square_schedule_sp ten">
+            <div class="square_schedule_sp ten sp370">
               <div class="ribbon_content_sp">
                 <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
                 <span class="time_text_sp">16:00～</span>
@@ -603,23 +603,23 @@
                 <img class="face_img_sp ten" src="./img/schedule/sp/Group 210.png">
               </div>
               <div class="catchphrase_text_sp_content twoline">
-                <p class="catchphrase_text_sp wide200 ten">
+                <p class="catchphrase_text_sp wide200 ten sp370">
                   累計300人以上、起業家を見て感じた成功法則
                 </p>
               </div>
             </div>
-            <div class="square_schedule_sp eleven">
+            <div class="square_schedule_sp eleven sp370">
               <div class="ribbon_content_sp">
                 <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
                 <span class="time_text_sp eleven">MC</span>
               </div>
-              <div class="face_img_content_sp eleven">
-                <img class="face_img_sp eleven" src="./img/schedule/sp/Group 215.png">
+              <div class="face_img_content_sp eleven sp370">
+                <img class="face_img_sp eleven sp370" src="./img/schedule/sp/Group 215.png">
               </div>
             </div>
           </div>
-          <div class="schedule_fade"></div>
-          <div class="readMore_button_content">
+          <div class="schedule_fade sp390 sp370"></div>
+          <div class="readMore_button_content sp390">
             <button class="readMore_button" id="readMoreBtn">Read more</button>
           </div>
         </div>
