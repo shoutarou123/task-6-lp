@@ -2351,7 +2351,7 @@ iframe {
 }
 
 .time_schedule_section.sp {
-  height: 1500px;
+  height: auto;
 }
 
 .title_h2.schedule.sp {
@@ -2369,6 +2369,8 @@ iframe {
 
 .time_schedule_inner_content.sp {
   padding: 0;
+  height: auto;
+  max-height: 2000px;
 }
 
 .square_schedule_sp_content {
@@ -2466,6 +2468,26 @@ position: relative;
   height: 54px;
 }
 
+.accordion_wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.schedule_list {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.8s;
+  position: relative;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 13px;
+}
+
+.schedule_list.expanded {
+  max-height: 1000px;
+}
+
 .face_img_content_sp.seven {
   margin-top: 16px;
 }
@@ -2518,6 +2540,14 @@ position: relative;
   height: auto;
 }
 
+.readMore_button_content {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 54px;
+}
+
 .readMore_button {
   color: #FFF;
   font-family: 'Roboto';
@@ -2527,9 +2557,21 @@ position: relative;
   border: solid 1px #FFF;
   width: 115px;
   height: 26px;
+  z-index: 999;
 }
 
-
+.schedule_fade {
+  position: absolute;
+  left:0; right: 0;
+  bottom: 101px;
+  height: 20px;
+  width: 354px;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, rgba(10, 10, 10, 0) , rgba(0,0,0,0.74),rgba(0,0,0,0.74));
+  pointer-events: none;
+  z-index:2;
+  border-radius: 5px;
+}
 
 
 
