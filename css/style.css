@@ -1377,6 +1377,137 @@ iframe {
   display: none;
 }
 
+/* ----- FAQ セクション ----- */
+
+.faq_section.faq {
+  background-image: url("/img/背景フレーム.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 752px;
+  width: 100%;
+}
+
+.title_content.faq {
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 94px;
+}
+
+.title_h2.faq {
+  color: #fdd35c;
+}
+
+.subTitle_text.faq {
+  margin-top: 9px;
+  margin-left: -4px;
+  position: relative;
+}
+
+.line_left.faq {
+  position: absolute;
+  top: 11px;
+  left: -62px;
+}
+
+.line_right.faq {
+  position: absolute;
+  top: 11px;
+  left: 117px;
+}
+
+.content_flex {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+  margin-left: 340px;
+  margin-top: 67px;
+}
+
+.qa_text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 11px;
+}
+
+.content_flex.a1 {
+  margin-top: 16px;
+}
+
+.content_flex.q2 {
+  margin-top: 43px;
+}
+
+.content_flex.a2 {
+  margin-top: 17px;
+}
+
+.qa_text {
+  color: #000000;
+}
+
+.qa_text:hover {
+  opacity: 0.5;
+}
+
+.footer_container {
+  background-color: #333333;
+  height: 279px;
+  width: 100%;
+  padding-top: 1px;
+}
+
+.guidance_button_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  /* background-color: #00a8f0; */
+}
+
+.guidance_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  border: solid 1.63px #fff;
+  padding: 8px 46px 9px 38px;
+  border-radius: 50px;
+}
+
+.footer_underline {
+  border-bottom: solid 1px #FFF;
+  width: 1192px;
+  margin: 48px auto 0px auto;
+}
+
+.footer_logo_img_content {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* *********** レスポンシブ *************** */
 @media screen and (min-width: 1441px) {
   .title_content.pickUp {
@@ -3488,33 +3619,6 @@ iframe {
   .schedule_fade.sp390.sp370 {
     width: 321px;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (max-width: 352px) {

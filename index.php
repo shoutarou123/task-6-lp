@@ -440,26 +440,7 @@
         </div>
       </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       <div class="square_schedule_sp_content hidden">
-
         <div class="square_schedule_sp one sp370">
           <div class="ribbon_content_sp sp390">
             <img class="ribbon_img_sp" src="./img/schedule/sp/Group 194.png">
@@ -623,15 +604,61 @@
             <button class="readMore_button" id="readMoreBtn">Read more</button>
           </div>
         </div>
+      </div>
+  </section>
 
+  <section class="faq_section faq">
+    <div class="faq_inner_content">
 
-
-
+      <div class="title_content faq">
+        <h2 class="title_h2 faq">FAQ</h2>
+        <p class="subTitle_text faq">
+          <span class="line_left faq"></span>
+          <span class="event_text faq">よくある質問</span>
+          <span class="line_right faq"></span>
+        </p>
       </div>
 
-
-
+      <div class="content_flex_container">
+        <div class="content_flex">
+          <img class="qa_img" src="./img/Group 236.png">
+          <p class="qa_text">再入場はできますか？</p>
+        </div>
+        <div class="content_flex a1">
+          <img class="qa_img" src="./img/Group 237.png">
+          <p class="qa_text">できます。</p>
+        </div>
+        <div class="content_flex q2">
+          <img class="qa_img" src="./img/Group 236.png">
+          <p class="qa_text">入場にお金はかかりますか？</p>
+        </div>
+        <div class="content_flex a2">
+          <img class="qa_img" src="./img/Group 237.png">
+          <p class="qa_text">一切かかりません。</p>
+        </div>
+        <div class="content_flex q2">
+          <img class="qa_img" src="./img/Group 236.png">
+          <p class="qa_text">出展を希望する企業はどこから問い合わせれば良いですか？</p>
+        </div>
+        <div class="content_flex a2">
+          <img class="qa_img" src="./img/Group 237.png">
+          <a class="qa_text" href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちらからお願いします。</a>
+        </div>
+      </div>
+    </div>
   </section>
+
+  <footer>
+    <div class="footer_container">
+      <div class="guidance_button_content">
+        <a class="guidance_button" href="#">出展希望企業はこちら</a>
+      </div>
+      <div class="footer_underline"></div>
+      <div class="footer_logo_img_content">
+        <img class="footer_logo_img" src="./img/Group 224.png">
+      </div>
+    </div>
+  </footer>
 
   <script src="./js/index.js"></script>
 </body>
