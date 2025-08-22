@@ -1484,6 +1484,10 @@ iframe {
   display: none;
 }
 
+.under_button_content {
+  display: none;
+}
+
 /* *********** レスポンシブ *************** */
 @media screen and (min-width: 1441px) {
   .title_content.pickUp {
@@ -2871,6 +2875,16 @@ iframe {
     width: 255px;
     margin-top: -10px;
   }
+
+  .under_button_content {
+    display: block;
+    height: 80px;
+    background-color:rgba(241,241,244,0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 @media screen and (max-width: 535px) {
