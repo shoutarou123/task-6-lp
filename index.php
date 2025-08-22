@@ -46,7 +46,7 @@
       <div class="summitDetailText_content">
         <p class="summitDetail_text">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</p>
       </div>
-
+      <div id="side_button_anchor"></div>
       <a class="side_button" href="#">
         <span class="side_button_text">申し込みはこちら
           <img class="side_line_img" src="./img/LINE_Brand_icon 1 (1).png">
@@ -63,7 +63,6 @@
           <p class="summaryDetail_detail">
             <span class="start_text">2023年3月4日（土）</span><span class="kaijou_text">開場10:00</span><span class="end_text">閉場18:00（受付開始9:30-）</span><span class="jikan hidden">10:00～18:00</span><span class="uketuke hidden">(受付開始9:30-)</span>
           </p>
-
         </div>
 
         <span class="border_dot"></span>
@@ -109,8 +108,9 @@
             <p class="mini_text title"><span class="dot jr"></span>JR</p>
             <p class="mini_text eki">有楽町駅より徒歩1分</p>
             <p class="mini_text eki tokyo">東京駅より徒歩5分</p>
-
-            <p class="mini_text title tika"><span class="dot tika"></span>地下鉄</p>
+            <p class="mini_text title tika">
+              <span class="dot tika"></span>地下鉄
+            </p>
             <p class="mini_text eki sen">有楽町線<span class="eki_text"><span class="koron">：</span><span class="ekinaiyo yuraku">有楽町駅(B1F地下コンコースにて連絡)</span></span></p>
             <p class="mini_text eki sen tida">千代田線<span class="eki_text"><span class="koron">：</span><span class="ekinaiyo">二重橋前駅より徒歩5分/日比谷駅より徒歩7分</span></span></p>
             <p class="mini_text eki sen maru">丸ノ内線<span class="eki_text"><span class="koron">：</span>銀座駅より徒歩5分</span></p>
@@ -226,7 +226,6 @@
 
           <div class="explanation_block quartet">
             <p class="company_text quartet">1000業種以上の圧倒的運用実績！リスティング、Facebook・TwitterなどのSNS広告もおまかせ。</p>
-
           </div>
         </div>
       </div>
@@ -240,7 +239,11 @@
     <div class="about_section_inner_content">
       <div class="title_content about">
         <h2 class="title_h2 about">About Exhibitors</h2>
-        <p class="subTitle_text about"><span class="line_left about"></span><span class="event_text about">出展企業一覧</span><span class="line_right about"></span></p>
+        <p class="subTitle_text about">
+          <span class="line_left about"></span>
+          <span class="event_text about">出展企業一覧</span>
+          <span class="line_right about"></span>
+        </p>
       </div>
 
       <div class="flex_about">
@@ -277,7 +280,6 @@
 
   <section class="time_schedule_section sp">
     <div class="time_schedule_inner_content sp">
-
       <div class="title_content schedule">
         <h2 class="title_h2 schedule sp">Time Schedule</h2>
         <p class="subTitle_text schedule sp"><span class="line_left_schedule sp"></span><span class="event_text schedule sp">タイムスケジュール</span><span class="line_right_schedule sp"></span></p>
@@ -292,7 +294,10 @@
           <div class="face_img_content one">
             <img class="face_img one" src="./img/schedule/pc/Group 218.png">
           </div>
-          <p class="catchphrase_text first">今、<span class="sns_text">SNS</span><span class="hajimeru_text">を始めるなら</span></p>
+          <p class="catchphrase_text first">今、
+            <span class="sns_text">SNS</span>
+            <span class="hajimeru_text">を始めるなら</span>
+          </p>
         </div>
 
         <div class="square_schedule">
@@ -619,8 +624,8 @@
         </p>
       </div>
 
-      <div class="content_flex_container pc1300 pc1100 pc900 pc800 pc750 pc620 pc580 pc500">
-        <div class="sp_content pc390">
+      <div class="content_flex_container pc1300 pc1100 pc900 pc800 pc750 pc620 pc580 pc500 pc390">
+        <div class="sp_content pc580 pc390">
           <div class="content_flex pc1100 pc580">
             <img class="qa_img pc700 pc390" src="./img/Group 236.png">
             <p class="qa_text pc1000 pc580 pc390">再入場はできますか？</p>
@@ -637,13 +642,13 @@
             <img class="qa_img pc700 pc390" src="./img/Group 237.png">
             <p class="qa_text pc1000 pc580 pc390">一切かかりません。</p>
           </div>
-          <div class="content_flex q2 pc1000 hidden">
-            <img class="qa_img pc700" src="./img/Group 236.png">
-            <p class="qa_text pc1000">出展を希望する企業はどこから問い合わせれば良いですか？</p>
+          <div class="content_flex q2 pc1000 pc580">
+            <img class="qa_img pc700 pc390" src="./img/Group 236.png">
+            <p class="qa_text pc1000 pc580 width_cat">出展を希望する企業はどこから問い合わせれば良いですか？</p>
           </div>
-          <div class="content_flex a2 hidden">
-            <img class="qa_img pc700" src="./img/Group 237.png">
-            <a class="qa_text pc1000" href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちらからお願いします。</a>
+          <div class="content_flex a2 pc580">
+            <img class="qa_img pc700 pc580 pc390" src="./img/Group 237.png">
+            <a class="qa_text pc1000 pc580" href="https://docs.google.com/forms/d/e/1FAIpQLSdphU7Vu9xdSpRV0xaVSt9C6MpHUYG3OsTh7Vuqj8sGyInYqA/viewform">こちらからお願いします。</a>
           </div>
         </div>
       </div>
@@ -651,7 +656,7 @@
   </section>
 
   <footer>
-    <div class="footer_container pc900 pc750 pc580 pc390">
+    <div class="footer_container pc900 pc750 pc580 pc500 pc390">
       <div class="guidance_button_content pc580 pc390">
         <a class="guidance_button pc580 pc390" href="#">出展希望企業はこちら</a>
       </div>
