@@ -46,7 +46,7 @@
       <div class="summitDetailText_content">
         <p class="summitDetail_text">各業界でTOPクラスのフリーランスが集結するイベント。有名企業が集結する40ブースもの出展エリアに加え、各領域で圧倒的に結果を出し続ける精鋭フリーランス達が、自身のノウハウを語ります。他のイベントでは味わえない、新たな体験と出会える充実したコンテンツを用意しています。</p>
       </div>
-
+      <div id="side_button_anchor"></div>
       <a class="side_button" href="#">
         <span class="side_button_text">申し込みはこちら
           <img class="side_line_img" src="./img/LINE_Brand_icon 1 (1).png">

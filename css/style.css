@@ -254,10 +254,17 @@ li {
   padding-right: clamp(-99px, 0.416vw, 5.99px);
 }
 
+.side_button.fixed {
+  position: fixed;
+  top: 50vh;
+  right: 0;
+  transform: translateY(-50%);
+}
+
 .side_button_text {
   background-color: #06c755;
   padding-top: clamp(1px, 1.4583vw, 20.99px);
-  padding-right: clamp(1px, 1.0416vw, 14.99px);
+  padding-right: clamp(1px, 1.1111vw, 16px);
   padding-bottom: 0px;
   padding-left: clamp(1px, 1.1805vw, 16.99px);
   letter-spacing: clamp(-99px, 0.347vw, 4.99px);
