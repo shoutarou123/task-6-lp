@@ -1449,7 +1449,6 @@ iframe {
   width: 100%;
   padding-top: 1px;
 }
-
 .guidance_button_content {
   display: flex;
   justify-content: center;
@@ -2851,6 +2850,7 @@ iframe {
   .footer_container.pc900.pc750.pc580 {
     height: 158px;
     margin-top: 230px;
+    margin-bottom: 80px;
   }
 
   .guidance_button_content.pc580 {
@@ -2883,6 +2883,9 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
   }
 
 }
