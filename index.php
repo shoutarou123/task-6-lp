@@ -668,7 +668,9 @@
     </div>
   </footer>
   <div class="under_button_content">
-    <img class="under_button_img" src="./img/button.png">
+    <a href="#">
+      <img class="under_button_img" src="./img/button.png" alt="ボタン画像" />
+    </a>
   </div>
 
   <script src="./js/index.js"></script>
