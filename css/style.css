@@ -3708,6 +3708,7 @@ iframe {
 
   .event_text.faq.pc1300.pc800.pc580.pc390 {
     font-size: 14px;
+    margin-left: 2px;
   }
 
   .qa_img.pc700.pc390 {
@@ -3721,7 +3722,7 @@ iframe {
 
   .title_content.faq.pc1200.pc1100.pc900.pc750.pc580.pc390 {
     margin-top: -22px;
-    margin-left: 1px;
+    /* background-color: #06c755; */
   }
 
   .subTitle_text.faq.pc800.pc390 {
