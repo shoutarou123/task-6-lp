@@ -2611,40 +2611,33 @@ iframe {
 
   .flex_about {
     margin: 2.7586vw auto;
-    width: 86.2068vw;
-    display: flex;
+    width: 90.2068vw;
+    flex-flow: column;
+    align-items: center;
     justify-content: center;
-    gap: 3.7931vw;
   }
 
   .company_list {
-    font-size: 2.7586vw;
+    font-size: 16px;
     line-height: 40px;
   }
 
   .company_list.left {
+    margin-top: 20px;
     margin-left: 0px;
-    width: 200px;
-  }
-
-  .karu_text,
-  .sport_text {
-    line-height: 20px;
   }
 
   .company_list.right {
     position: static;
-    width: 34.4827vw;
   }
 
   .junfudo_text_content {
-    width: 43.1034vw;
-    margin-left: 34.4827vw;
+    padding: 0px;
     background-color: #fff;
   }
 
   .junfudo_text {
-    font-size: 2.7586vw;
+    font-size: 16px;
   }
 
   /* ******************* タイムスケジュールセクション ************************ */
@@ -3092,7 +3085,6 @@ iframe {
   }
 
   .title_content {
-    /* background-color: rgb(193, 233, 233); */
     width: 94.87vw;
     text-align: center;
   }
@@ -3133,7 +3125,6 @@ iframe {
     width: 97.44vw;
     height: 230.77vw;
     margin-top: 0px;
-    /* background-color: #00a8f0; */
   }
 
   .title_content.summary {
@@ -3144,7 +3135,6 @@ iframe {
   .subTitle_text.event {
     margin-top: 1.54vw;
     margin-left: 11px;
-    /* margin-left: 0.26vw; */
   }
 
   .line_left.event {
@@ -3660,22 +3650,6 @@ iframe {
     left: 6px;
   }
 
-  .company_list {
-    line-height: 20px;
-  }
-
-  .company_list.left {
-    width: 150px;
-  }
-
-  .karu_text {
-    line-height: 12px;
-  }
-
-  .company_list.right {
-    width: 150px;
-  }
-
   .sport_text {
     line-height: 12px;
   }
@@ -3806,7 +3780,6 @@ iframe {
 
   .title_content.faq.pc1200.pc1100.pc900.pc750.pc580.pc390 {
     margin-top: -22px;
-    /* background-color: #06c755; */
   }
 
   .subTitle_text.faq.pc800.pc390 {
